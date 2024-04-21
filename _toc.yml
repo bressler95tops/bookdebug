@@ -7,7 +7,7 @@ parts:
   - file: About/tops_faq
 - caption: Open Science 101
   chapters:
-  - file: Open-Science-101/Module-1/readme
+  - file: Open-Science-101/readme
     sections:
     - file: Open-Science-101/Module-1/readme.md
     - file: Open-Science-101/Module-1/Lesson-1.md
