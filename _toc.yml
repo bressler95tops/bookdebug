@@ -4,6 +4,7 @@ parts:
 - caption: Open Science 101
   chapters:
   - file: Open-Science-101/README
+  
   - file: Open-Science-101/Module-1/readme.md
     sections:
     - file: Open-Science-101/Module-1/Lesson-1.md
@@ -11,6 +12,7 @@ parts:
     - file: Open-Science-101/Module-1/Lesson-3.md
     - file: Open-Science-101/Module-1/Lesson-4.md
     - file: Open-Science-101/Module-1/Lesson-5.md
+    
   - file: Open-Science-101/Module-2/readme.md
     sections:
     - file: Open-Science-101/Module-2/Lesson-1.md
@@ -18,12 +20,14 @@ parts:
     - file: Open-Science-101/Module-2/Lesson-3.md
     - file: Open-Science-101/Module-2/Lesson-4.md
     - file: Open-Science-101/Module-2/Lesson-5.md
+    
   - file: Open-Science-101/Module-3/readme.md
     - file: Open-Science-101/Module-3/Lesson-1.md
     - file: Open-Science-101/Module-3/Lesson-2.md
     - file: Open-Science-101/Module-3/Lesson-3.md
     - file: Open-Science-101/Module-3/Lesson-4.md
     - file: Open-Science-101/Module-3/Lesson-5.md
+    
   - file: Open-Science-101/Module-4/readme.md
     sections:
     - file: Open-Science-101/Module-4/Lesson-1.md
@@ -31,6 +35,7 @@ parts:
     - file: Open-Science-101/Module-4/Lesson-3.md
     - file: Open-Science-101/Module-4/Lesson-4.md
     - file: Open-Science-101/Module-4/Lesson-5.md
+    
   - file: Open-Science-101/Module-5/readme.md
     sections:
     - file: Open-Science-101/Module-5/Lesson-1.md
@@ -38,42 +43,3 @@ parts:
     - file: Open-Science-101/Module-5/Lesson-3.md
     - file: Open-Science-101/Module-5/Lesson-4.md
     - file: Open-Science-101/Module-5/Lesson-5.md
-- caption: About TOPS
-  chapters:
-  - file: About/About-Announcements
-  - file: About/tops_faq
-- caption: Year of Open Science
-  chapters:
-  - file: Year_of_Open_Science_Guide/readme
-    sections:
-    - file: Year_of_Open_Science_Guide/participants/ASAP.md
-    - file: Year_of_Open_Science_Guide/participants/ASAPbio.md
-    - file: Year_of_Open_Science_Guide/participants/COS.md
-    - file: Year_of_Open_Science_Guide/participants/CTF.md
-    - file: Year_of_Open_Science_Guide/participants/GOSH.md
-    - file: Year_of_Open_Science_Guide/participants/HRA.md
-    - file: Year_of_Open_Science_Guide/participants/HELIOS.md
-    - file: Year_of_Open_Science_Guide/participants/LSEF.md
-    - file: Year_of_Open_Science_Guide/participants/PREreview.md
-    - file: Year_of_Open_Science_Guide/participants/ORFG.md
-    - file: Year_of_Open_Science_Guide/participants/CreativeCommons.md
-    - file: Year_of_Open_Science_Guide/participants/SPARC.md
-    - file: Year_of_Open_Science_Guide/participants/MJFoxFoundation.md
-    - file: Year_of_Open_Science_Guide/participants/GOFAIRUS.md
-    - file: Year_of_Open_Science_Guide/participants/SpringerNature.md
-    - file: Year_of_Open_Science_Guide/participants/STM.md
-    - file: Year_of_Open_Science_Guide/participants/FAS.md
-    - file: Year_of_Open_Science_Guide/participants/WilsonCenter.md
-    - file: Year_of_Open_Science_Guide/participants/Frontiers.md
-    - file: Year_of_Open_Science_Guide/participants/IOI.md
-    - file: Year_of_Open_Science_Guide/participants/FASEB.md
-    - file: Year_of_Open_Science_Guide/participants/Elsevier.md
-    - file: Year_of_Open_Science_Guide/participants/readme.md
-- caption: TOPS Proposal Resources
-  chapters:
-  - file: Proposal_Resources/readme
-- caption: TOPS Training Solicitation
-  chapters:
-  - file: TOPST/readme
-    sections:
-    - file: TOPST/TOPST_proposal_elements
