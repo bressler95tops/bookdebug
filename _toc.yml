@@ -7,42 +7,42 @@ parts:
   
   - file: Open-Science-101/Module_1/readme
     sections:
-    - file: Open-Science-101/Module_1/Lesson_1/Lesson-1.md
-    - file: Open-Science-101/Module_1/Lesson_2/Lesson-2.md
-    - file: Open-Science-101/Module_1/Lesson_3/Lesson-3.md
-    - file: Open-Science-101/Module_1/Lesson_4/Lesson-4.md
-    - file: Open-Science-101/Module_1/Lesson_5/Lesson-5.md
+    - file: Open-Science-101/Module_1/Lesson_1/Lesson_1.md
+    - file: Open-Science-101/Module_1/Lesson_2/Lesson_2.md
+    - file: Open-Science-101/Module_1/Lesson_3/Lesson_3.md
+    - file: Open-Science-101/Module_1/Lesson_4/Lesson_4.md
+    - file: Open-Science-101/Module_1/Lesson_5/Lesson_5.md
     
   - file: Open-Science-101/Module_2/readme
     sections:
-    - file: Open-Science-101/Module_2/Lesson_1/Lesson-1.md
-    - file: Open-Science-101/Module_2/Lesson_2/Lesson-2.md
-    - file: Open-Science-101/Module_2/Lesson_3/Lesson-3.md
-    - file: Open-Science-101/Module_2/Lesson_4/Lesson-4.md
-    - file: Open-Science-101/Module_2/Lesson_5/Lesson-5.md
+    - file: Open-Science-101/Module_2/Lesson_1/Lesson_1.md
+    - file: Open-Science-101/Module_2/Lesson_2/Lesson_2.md
+    - file: Open-Science-101/Module_2/Lesson_3/Lesson_3.md
+    - file: Open-Science-101/Module_2/Lesson_4/Lesson_4.md
+    - file: Open-Science-101/Module_2/Lesson_5/Lesson_5.md
     
   - file: Open-Science-101/Module_3/readme
     sections:
-    - file: Open-Science-101/Module_3/Lesson_1/Lesson-1.md
-    - file: Open-Science-101/Module_3/Lesson_2/Lesson-2.md
-    - file: Open-Science-101/Module_3/Lesson_3/Lesson-3.md
-    - file: Open-Science-101/Module_3/Lesson_4/Lesson-4.md
-    - file: Open-Science-101/Module_3/Lesson_5/Lesson-5.md
+    - file: Open-Science-101/Module_3/Lesson_1/Lesson_1.md
+    - file: Open-Science-101/Module_3/Lesson_2/Lesson_2.md
+    - file: Open-Science-101/Module_3/Lesson_3/Lesson_3.md
+    - file: Open-Science-101/Module_3/Lesson_4/Lesson_4.md
+    - file: Open-Science-101/Module_3/Lesson_5/Lesson_5.md
 
   - file: Open-Science-101/Module_4/readme
     sections:
-    - file: Open-Science-101/Module_4/Lesson_1/Lesson-1.md
-    - file: Open-Science-101/Module_4/Lesson_2/Lesson-2.md
-    - file: Open-Science-101/Module_4/Lesson_3/Lesson-3.md
-    - file: Open-Science-101/Module_4/Lesson_4/Lesson-4.md
-    - file: Open-Science-101/Module_4/Lesson_5/Lesson-5.md
+    - file: Open-Science-101/Module_4/Lesson_1/Lesson_1.md
+    - file: Open-Science-101/Module_4/Lesson_2/Lesson_2.md
+    - file: Open-Science-101/Module_4/Lesson_3/Lesson_3.md
+    - file: Open-Science-101/Module_4/Lesson_4/Lesson_4.md
+    - file: Open-Science-101/Module_4/Lesson_5/Lesson_5.md
   
   - file: Open-Science-101/Module_5/readme
     sections:
-    - file: Open-Science-101/Module_5/Lesson_1/Lesson-1.md
-    - file: Open-Science-101/Module_5/Lesson_2/Lesson-2.md
-    - file: Open-Science-101/Module_5/Lesson_3/Lesson-3.md
-    - file: Open-Science-101/Module_5/Lesson_4/Lesson-4.md
-    - file: Open-Science-101/Module_5/Lesson_5/Lesson-5.md
+    - file: Open-Science-101/Module_5/Lesson_1/Lesson_1.md
+    - file: Open-Science-101/Module_5/Lesson_2/Lesson_2.md
+    - file: Open-Science-101/Module_5/Lesson_3/Lesson_3.md
+    - file: Open-Science-101/Module_5/Lesson_4/Lesson_4.md
+    - file: Open-Science-101/Module_5/Lesson_5/Lesson_5.md
 
     
