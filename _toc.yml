@@ -3,11 +3,6 @@ root: index
 parts:
 - caption: About TOPS
   chapters:
-  - file: Open-Science-101/README
-    sections:
-    - file: Open-Science-101/Module-1/Lesson-1.md
-- caption: Open Science 101
-  chapters:
   - file: About/About-Announcements
   - file: About/tops_faq
 - caption: Year of Open Science
