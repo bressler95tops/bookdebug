@@ -1,17 +1,11 @@
 format: jb-book
 root: index
 parts:
-- caption: Open Science 101
+- caption: About TOPS
   chapters:
   - file: Open-Science-101/README
     sections:
-    - file: Open-Science-101/Module-1/readme.md
-      sections:
-      - file: Open-Science-101/Module-1/Lesson-1.md
-      - file: Open-Science-101/Module-1/Lesson-2.md
-      - file: Open-Science-101/Module-1/Lesson-3.md
-      - file: Open-Science-101/Module-1/Lesson-4.md
-      - file: Open-Science-101/Module-1/Lesson-5.md
+    - file: Open-Science-101/Module-1/Lesson-1.md
 - caption: Open Science 101
   chapters:
   - file: About/About-Announcements
