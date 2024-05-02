@@ -12,6 +12,7 @@ parts:
       - file: Open-Science-101/Module-1/Lesson-3.md
       - file: Open-Science-101/Module-1/Lesson-4.md
       - file: Open-Science-101/Module-1/Lesson-5.md
+    sections:
     - file: Open-Science-101/Module-2/readme.md
       sections:
       - file: Open-Science-101/Module-2/Lesson-1.md
@@ -19,12 +20,15 @@ parts:
       - file: Open-Science-101/Module-2/Lesson-3.md
       - file: Open-Science-101/Module-2/Lesson-4.md
       - file: Open-Science-101/Module-2/Lesson-5.md
+    sections:
     - file: Open-Science-101/Module-3/readme.md
+      sections:
       - file: Open-Science-101/Module-3/Lesson-1.md
       - file: Open-Science-101/Module-3/Lesson-2.md
       - file: Open-Science-101/Module-3/Lesson-3.md
       - file: Open-Science-101/Module-3/Lesson-4.md
       - file: Open-Science-101/Module-3/Lesson-5.md
+    sections:
     - file: Open-Science-101/Module-4/readme.md
       sections:
       - file: Open-Science-101/Module-4/Lesson-1.md
@@ -32,6 +36,7 @@ parts:
       - file: Open-Science-101/Module-4/Lesson-3.md
       - file: Open-Science-101/Module-4/Lesson-4.md
       - file: Open-Science-101/Module-4/Lesson-5.md
+    sections:
     - file: Open-Science-101/Module-5/readme.md
       sections:
       - file: Open-Science-101/Module-5/Lesson-1.md
