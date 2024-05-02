@@ -1,6 +1,51 @@
 format: jb-book
 root: index
 parts:
+
+- caption: Open Science 101
+  chapters:
+  - file: Open-Science-101/README
+  
+  - file: Open-Science-101/Module_1/readme
+    sections:
+    - file: Open-Science-101/Module_1/Lesson_1/readme.md
+    - file: Open-Science-101/Module_1/Lesson_2/readme.md
+    - file: Open-Science-101/Module_1/Lesson_3/readme.md
+    - file: Open-Science-101/Module_1/Lesson_4/readme.md
+    - file: Open-Science-101/Module_1/Lesson_5/readme.md
+    
+  - file: Open-Science-101/Module_2/readme
+    sections:
+    - file: Open-Science-101/Module_2/Lesson_1/readme.md
+    - file: Open-Science-101/Module_2/Lesson_2/readme.md
+    - file: Open-Science-101/Module_2/Lesson_3/readme.md
+    - file: Open-Science-101/Module_2/Lesson_4/readme.md
+    - file: Open-Science-101/Module_2/Lesson_5/readme.md
+    
+  - file: Open-Science-101/Module_3/readme
+    sections:
+    - file: Open-Science-101/Module_3/Lesson_1/readme.md
+    - file: Open-Science-101/Module_3/Lesson_2/readme.md
+    - file: Open-Science-101/Module_3/Lesson_3/readme.md
+    - file: Open-Science-101/Module_3/Lesson_4/readme.md
+    - file: Open-Science-101/Module_3/Lesson_5/readme.md
+
+  - file: Open-Science-101/Module_4/readme
+    sections:
+    - file: Open-Science-101/Module_4/Lesson_1/readme.md
+    - file: Open-Science-101/Module_4/Lesson_2/readme.md
+    - file: Open-Science-101/Module_4/Lesson_3/readme.md
+    - file: Open-Science-101/Module_4/Lesson_4/readme.md
+    - file: Open-Science-101/Module_4/Lesson_5/readme.md
+  
+  - file: Open-Science-101/Module_5/readme
+    sections:
+    - file: Open-Science-101/Module_5/Lesson_1/readme.md
+    - file: Open-Science-101/Module_5/Lesson_2/readme.md
+    - file: Open-Science-101/Module_5/Lesson_3/readme.md
+    - file: Open-Science-101/Module_5/Lesson_4/readme.md
+    - file: Open-Science-101/Module_5/Lesson_5/readme.md
+
 - caption: About TOPS
   chapters:
   - file: About/About-Announcements
