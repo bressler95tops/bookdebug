@@ -5,7 +5,7 @@ parts:
   chapters:
   - file: Open-Science-101/README
   
-  - file: Open-Science-101/Module-1/readme
+  - file: Open-Science-101/Module-1/readme.md
     sections:
     - file: Open-Science-101/Module-1/Lesson-1.md
     - file: Open-Science-101/Module-1/Lesson-2.md
