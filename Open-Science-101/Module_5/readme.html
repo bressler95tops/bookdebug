@@ -1,0 +1,682 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>OS101 Module 5: Open Results &#8212; NASA&#39;s Transform to Open Science Mission</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://nasa.github.io/Transform-to-Open-Science-Book/Open-Science-101/Module_5/readme.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="OS101 Module 4: Open Code" href="../Module_4/readme.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/Tops_Badge_Nasa.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">NASA's Transform to Open Science Mission</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Open Science 101
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../README.html">
+   Open Science 101 Curriculum
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Module_1/readme.html">
+   OS101 Module 1: The Ethos of Open Science
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="simple">
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Module_2/readme.html">
+   OS101 Module 2: Open Tools and Resources
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="simple">
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Module_3/readme.html">
+   OS101 Module 3: Open Data
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="simple">
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Module_4/readme.html">
+   OS101 Module 4: Open Code
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="simple">
+  </ul>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   OS101 Module 5: Open Results
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://cgentemann.github.io/Transform-to-Open-Science-Book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://cgentemann.github.io/Transform-to-Open-Science-Book/issues/new?title=Issue%20on%20page%20%2FOpen-Science-101/Module_5/readme.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/cgentemann.github.io/Transform-to-Open-Science-Book/edit/main/Open-Science-101/Module_5/readme.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../../_sources/Open-Science-101/Module_5/readme.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   OS101 Module 5: Open Results
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#about-this-module">
+     About This Module
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#module-learning-objectives">
+       Module Learning Objectives
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-terms">
+   Key Terms
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#navigation">
+     Navigation
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-1-introduction-to-open-results">
+       <span class="xref myst">
+        Lesson 1: Introduction to Open Results
+       </span>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-2-using-open-results">
+       <span class="xref myst">
+        Lesson 2: Using Open Results
+       </span>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-3-making-open-results">
+       <span class="xref myst">
+        Lesson 3: Making Open Results
+       </span>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-4-sharing-open-results">
+       <span class="xref myst">
+        Lesson 4: Sharing Open Results
+       </span>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-5-from-theory-to-practice">
+       <span class="xref myst">
+        Lesson 5: From Theory to Practice
+       </span>
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>OS101 Module 5: Open Results</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   OS101 Module 5: Open Results
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#about-this-module">
+     About This Module
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#module-learning-objectives">
+       Module Learning Objectives
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-terms">
+   Key Terms
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#navigation">
+     Navigation
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-1-introduction-to-open-results">
+       <span class="xref myst">
+        Lesson 1: Introduction to Open Results
+       </span>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-2-using-open-results">
+       <span class="xref myst">
+        Lesson 2: Using Open Results
+       </span>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-3-making-open-results">
+       <span class="xref myst">
+        Lesson 3: Making Open Results
+       </span>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-4-sharing-open-results">
+       <span class="xref myst">
+        Lesson 4: Sharing Open Results
+       </span>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lesson-5-from-theory-to-practice">
+       <span class="xref myst">
+        Lesson 5: From Theory to Practice
+       </span>
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="os101-module-5-open-results">
+<h1>OS101 Module 5: Open Results<a class="headerlink" href="#os101-module-5-open-results" title="Permalink to this headline">#</a></h1>
+<p><strong>Welcome to Open Science 101: Open Results</strong></p>
+<section id="about-this-module">
+<h2>About This Module<a class="headerlink" href="#about-this-module" title="Permalink to this headline">#</a></h2>
+<p>Welcome to Open Results! This module focuses on giving you the tools you need to kick-start a scientific collaboration by creating contributor guidelines that ensure ethical contributorship. It starts out with a use case of open science in action, then a review of how to discover and assess open results. Next, the focus is on how to publish results which includes a task checklist. The module wraps up with specific guidance for writing the sharing results section of the Open Science and Data Management Plans (OSDMP). We will also reflect on how our society and technology are constantly evolving in the way we do science.</p>
+<section id="module-learning-objectives">
+<h3>Module Learning Objectives<a class="headerlink" href="#module-learning-objectives" title="Permalink to this headline">#</a></h3>
+<p>After completing this module you should be able to:</p>
+<ul class="simple">
+<li><p>Describe what constitutes an open result.</p></li>
+<li><p>Explain what the reproducibility crisis is and how open science can help combat it.</p></li>
+<li><p>Use a process to discover, assess, and cite open results for reuse.</p></li>
+<li><p>List the responsibilities of the following participants that are creating open results: open results user, project leader, collaborator, contributor and author.</p></li>
+<li><p>List the tasks for creating reproducible results and the items to include in a manuscript to ensure reproducible results.</p></li>
+<li><p>Define a strategy for sharing your results including selecting publishers, interpreting journal policies and licenses, and determining when to share your data or software with your manuscript.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="key-terms">
+<h1>Key Terms<a class="headerlink" href="#key-terms" title="Permalink to this headline">#</a></h1>
+<p>These key terms are important topics for this module. Select the term to see the description.</p>
+<p><strong>Research Object (RO)</strong> - A method for the identification, aggregation, and exchange of scholarly information on the Web. This can include publications in different forms, software, data, and media.</p>
+<p><strong>Predatory Publishing</strong> - For-profit publishers that charge a publishing fee but provide few quality checks on the quality of the publication that would be expected from scholarly publications such as peer review or type-setting.</p>
+<p><strong>Preprint</strong> - A version of a paper prior to the publication in a journal. This can be the author’s version of the accepted manuscript after peer review or a version prior to submission to a journal.</p>
+<p><strong>Preregistering</strong> - A practice by researchers who determine their analysis plan and data collection procedure before a study begins.</p>
+<p><strong>Persistent Identifiers</strong> - Long lasting reference to a document, file, web page, or other digital object. It is usually used in the context of digital objects that are accessible over the internet. Most PIDs have a unique identifier which is linked to the current address of the metadata or content.</p>
+<p><strong>Reproducibility Crisis</strong> - The ‘reproducibility crisis’ in science is a growing concern over several reproducibility studies where previous positive results were not reproduced.</p>
+<p><strong>DOI</strong> - A digital object identifier is a persistent identifier’s handle used to uniquely identify various objects, standardized by the International Organization for Standardization (ISO).</p>
+<p><strong>Code of Conduct</strong> - A collection of rules and policies that outline the standards, principles, expectations, and morals for a particular group or organization. It is considered binding on any person who is a member of that group or organization. It can help employees align their behavior with the company’s values, support decision-making, and foster retention and loyalty.</p>
+<section id="navigation">
+<h2>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline">#</a></h2>
+<section id="lesson-1-introduction-to-open-results">
+<h3><span class="xref myst">Lesson 1: Introduction to Open Results</span><a class="headerlink" href="#lesson-1-introduction-to-open-results" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="./Lesson_1#what-research-objects-are-created-throughout-the-research-cycle">What Research Objects are Created Throughout the Research Cycle?</a></p></li>
+<li><p><a class="reference external" href="./Lesson_1#examples-of-open-results">Examples of Open Results</a></p></li>
+<li><p><a class="reference external" href="./Lesson_1#what-is-the-reproducibility-crisis">What is the Reproducibility Crisis?</a></p></li>
+<li><p><a class="reference external" href="./Lesson_1#lesson-1-summary">Lesson 1: Summary</a></p></li>
+<li><p><a class="reference external" href="./Lesson_1#lesson-1-knowledge-check">Lesson 1: Knowledge Check</a></p></li>
+</ul>
+</section>
+<section id="lesson-2-using-open-results">
+<h3><span class="xref myst">Lesson 2: Using Open Results</span><a class="headerlink" href="#lesson-2-using-open-results" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="./Lesson_2#how-to-discover-open-results">How to Discover Open Results</a></p></li>
+<li><p><a class="reference external" href="./Lesson_2#how-to-assess-open-results">How to Assess Open Results</a></p></li>
+<li><p><a class="reference external" href="./Lesson_2#how-to-use-open-results">How to Use Open Results</a></p></li>
+<li><p><a class="reference external" href="./Lesson_2#how-to-cite-open-results">How to Cite Open Results</a></p></li>
+<li><p><a class="reference external" href="./Lesson_2#lesson-2-summary">Lesson 2: Summary</a></p></li>
+<li><p><a class="reference external" href="./Lesson_2#lesson-2-knowledge-check">Lesson 2: Knowledge Check</a></p></li>
+</ul>
+</section>
+<section id="lesson-3-making-open-results">
+<h3><span class="xref myst">Lesson 3: Making Open Results</span><a class="headerlink" href="#lesson-3-making-open-results" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="./Lesson_3#how-to-make-open-results">How to Make Open Results</a></p></li>
+<li><p><a class="reference external" href="./Lesson_3#role-of-contributors-in-open-science">Role of Contributors in Open Science</a></p></li>
+<li><p><a class="reference external" href="./Lesson_3#how-to-give-open-recognition">How to Give Open Recognition</a></p></li>
+<li><p><a class="reference external" href="./Lesson_3#combining-open-results-for-scientific-reporting-and-publications">Combining Open Results for Scientific Reporting and Publications</a></p></li>
+<li><p><a class="reference external" href="./Lesson_3#lesson-3-summary">Lesson 3: Summary</a></p></li>
+<li><p><a class="reference external" href="./Lesson_3#lesson-3-knowledge-check">Lesson 3: Knowledge Check</a></p></li>
+</ul>
+</section>
+<section id="lesson-4-sharing-open-results">
+<h3><span class="xref myst">Lesson 4: Sharing Open Results</span><a class="headerlink" href="#lesson-4-sharing-open-results" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="./Lesson_4#when-to-share">When to Share</a></p></li>
+<li><p><a class="reference external" href="./Lesson_4#how-to-share">How to Share</a></p></li>
+<li><p><a class="reference external" href="./Lesson_4#other-considerations-when-sharing">Other Considerations When Sharing</a></p></li>
+<li><p><a class="reference external" href="./Lesson_4#lesson-4-summary">Lesson 4: Summary</a></p></li>
+<li><p><a class="reference external" href="./Lesson_4#lesson-4-knowledge-check">Lesson 4: Knowledge Check</a></p></li>
+</ul>
+</section>
+<section id="lesson-5-from-theory-to-practice">
+<h3><span class="xref myst">Lesson 5: From Theory to Practice</span><a class="headerlink" href="#lesson-5-from-theory-to-practice" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="./Lesson_5#writing-an-osdmp-what-to-include-in-the-osdmp-for-sharing-results-openly">Writing an OSDMP: What to Include in the OSDMP for Sharing Results Openly</a></p></li>
+<li><p><a class="reference external" href="./Lesson_5#example-steps-toward-more-open-results">Example Steps Toward More Open Results</a></p></li>
+<li><p><a class="reference external" href="./Lesson_5#how-emerging-technology-like-ai-is-changing-how-we-do-science">How Emerging Technology Like AI is Changing How We Do Science</a></p></li>
+<li><p><a class="reference external" href="./Lesson_5#lesson-5-summary">Lesson 5: Summary</a></p></li>
+<li><p><a class="reference external" href="./Lesson_5#lesson-5-knowledge-check">Lesson 5: Knowledge Check</a></p></li>
+<li><p><a class="reference external" href="./Lesson_5#open-results-summary">Open Results Summary</a></p></li>
+<li><p><a class="reference external" href="./Lesson_5#open-science-101-summary">Open Science 101 Summary</a></p></li>
+</ul>
+</section>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Open-Science-101/Module_5"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../Module_4/readme.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">OS101 Module 4: Open Code</p>
+        </div>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By TOPS Community<br/>
+  
+      &copy; Copyright CC-BY.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
