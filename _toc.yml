@@ -4,7 +4,7 @@ parts:
 
 - caption: Open Science 101
   chapters:
-  - file: https://github.com/nasa/Transform-to-Open-Science/blob/382284331d50028212d92e82e2710a48cdc3f409/README.md
+  - file: https://github.com/nasa/Transform-to-Open-Science/blob/open-science-101/README.md
   
   - file: https://github.com/nasa/Transform-to-Open-Science/tree/open-science-101/Module_1/readme.md
     sections:
