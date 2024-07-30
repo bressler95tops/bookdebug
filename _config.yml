@@ -24,9 +24,11 @@ html:
 
 
 repository:
-  url                       : https://cgentemann.github.io/Transform-to-Open-Science-Book  # The URL to your book's repository
-  branch                    : main  # Which branch of the repository should be used when creating links
-
+  url                       : https://nasa.github.io/Transform-to-Open-Science  # The URL to your book's repository
+  branch                    : open-science-101  # Which branch of the repository should be used when creating links
+#  url                       : https://cgentemann.github.io/Transform-to-Open-Science-Book  # The URL to your book's repository
+#  branch                    : main  # Which branch of the repository should be used when creating links
+  
 sphinx:
   config:
     exclude_patterns:
