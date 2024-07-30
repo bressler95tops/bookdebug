@@ -4,12 +4,9 @@ parts:
 
 - caption: Open Science 101
   chapters:
-  - url: https://github.com/nasa/Transform-to-Open-Science/blob/open-science-101/README.md
-    title: Introduction to Open Science 101
+  - file: Open-Science-101/README
   
-  - url: open-science-102/Module_1/readme.md
-    title: Module 1 The Ethos of Open Science
-  
+  - file: Open-Science-101/Module_1/readme 
     sections:
     - file: Open-Science-101/Module_1/Lesson_1/readme.md
     - file: Open-Science-101/Module_1/Lesson_2/readme.md
