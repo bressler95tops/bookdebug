@@ -8,11 +8,6 @@ on:
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
-  update-config:
-    - name: Add remote
-      run: |
-        git remote add -t open-science-101 open-science-102 https://github.com/nasa/Transform-to-Open-Science/
-
   deploy-book:
     runs-on: ubuntu-latest
     steps:
