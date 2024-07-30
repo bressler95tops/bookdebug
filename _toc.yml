@@ -4,9 +4,9 @@ parts:
 
 - caption: Open Science 101
   chapters:
-  - file: README.md
+  - url: https://github.com/nasa/Transform-to-Open-Science/blob/open-science-101/README.md
   
-  - file: Module_1/readme.md
+  - url: https://github.com/nasa/Transform-to-Open-Science/tree/open-science-101/Module_1/readme.md
     sections:
     - file: Open-Science-101/Module_1/Lesson_1/readme.md
     - file: Open-Science-101/Module_1/Lesson_2/readme.md
