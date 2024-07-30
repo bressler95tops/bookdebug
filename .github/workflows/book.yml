@@ -1,4 +1,6 @@
 name: deploy-book
+environment:
+  name: github-pages
 
 # Run this when the master or main branch changes
 on:
@@ -58,5 +60,3 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
-environment:
-  name: github-pages
