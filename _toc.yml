@@ -33,10 +33,6 @@ parts:
     - file: Open-Science-101/Module_4/Lesson_3/readme.md
     - file: Open-Science-101/Module_4/Lesson_4/readme.md
     - file: Open-Science-101/Module_4/Lesson_5/readme.md
-- caption: About TOPS
-  chapters:
-  - file: About/About-Announcements
-  - file: About/tops_faq
   - file: Open-Science-101/Module_5/readme.md
     sections:
     - file: Open-Science-101/Module_5/Lesson_1/readme.md
@@ -44,6 +40,10 @@ parts:
     - file: Open-Science-101/Module_5/Lesson_3/readme.md
     - file: Open-Science-101/Module_5/Lesson_4/readme.md
     - file: Open-Science-101/Module_5/Lesson_5/readme.md
+- caption: About TOPS
+  chapters:
+  - file: About/About-Announcements
+  - file: About/tops_faq
 - caption: Year of Open Science 
   chapters:
   - file: Year_of_Open_Science_Guide/readme
