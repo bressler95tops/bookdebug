@@ -1,15 +1,5 @@
 # Lesson 5: From Theory to Practice
 
-## Navigation
-
-* [Writing an OSDMP: What to Include in the OSDMP for Sharing Results Openly](#writing-an-osdmp-what-to-include-in-the-osdmp-for-sharing-results-openly)
-* [Example Steps Toward More Open Results](#example-steps-toward-more-open-results)
-* [How Emerging Technology Like AI is Changing How We Do Science](#how-emerging-technology-like-ai-is-changing-how-we-do-science)
-* [Lesson 5: Summary](#lesson-5-summary)
-* [Lesson 5: Knowledge Check](#lesson-5-knowledge-check)
-* [Open Results Summary](#open-results-summary)
-* [Open Science 101 Summary](#open-science-101-summary)
-
 ## Overview
 
 In the previous lessons, we learned about various ways to share our science, and what steps we should think about when sharing. In this lesson, we tie the concepts from previous lessons together with some specific guidance for writing the Sharing Results section of an Open Science and Data Management Plans (OSDMP). We will also reflect on how our society and technology constantly evolve, as does the way we do science. A new technology with the potential to radically alter the way we do and share science is artificial intelligence (AI), particularly when it comes to language learning models. These AI tools are already changing how we interact with written text. In this lesson, we discuss some of the ways that AI is and will affect how we do and share our science.
