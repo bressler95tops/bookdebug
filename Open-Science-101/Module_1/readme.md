@@ -62,6 +62,9 @@ Learn more [here.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3792863/)
 
 ## Navigation
 
+```{tableofcontents}
+```
+
 ### [Lesson 1: What is Open Science?](./Lesson_1)
 
 * [Motivation for Open Science](./Lesson_1#motivation-for-open-science)
