@@ -213,11 +213,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../About/About-Announcements.html">About NASA Transform to Open Science</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../About/tops_faq.html">Frequently Asked Questions</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Module_5/readme.html">OS101 Module 5: Open Results</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_1/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_2/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_3/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_4/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_5/readme.html">Just a test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_1/readme.html">Lesson 1: Introduction to Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_2/readme.html">Lesson 2: Using Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_3/readme.html">Lesson 3: Making Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_4/readme.html">Lesson 4: Sharing Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_5/readme.html">Lesson 5: From Theory to Practice</a></li>
 </ul>
 </details></li>
 </ul>
@@ -612,14 +612,14 @@ document.write(`
 <li><p>In what ways am I allowed to use your code?</p></li>
 <li><p>Will you accept changes to your code? If I find a bug, what do I do?</p></li>
 <li><p>How do I trust your code works?</p></li>
-<li><p>How do I know if the code will be supported long term?</p></li>
+<li><p>How do I know if the code will be supported long-term?</p></li>
 </ul>
 </section>
 </section>
 <section id="importance-of-version-control">
 <h2>Importance of Version Control<a class="headerlink" href="#importance-of-version-control" title="Link to this heading">#</a></h2>
 <p>Your code will change significantly over the lifetime of your project. Just as we appreciate the ability to track earlier versions of documents or versions created by different people, inevitably someone will want to be able to revert, compare, and synthesize changes in code.</p>
-<p>The most popular tool for version control is git. Git is a system that tracks changes in computer files, similar to Google Docs or SharePoint but more applicable to code script. Git is usually used in conjunction with a version control platform such as GitHub, Gitlab, or Bitbucket. These tools were covered in Module 2.2.</p>
+<p>The most popular tool for version control is git. Git is a system that tracks changes in computer files, similar to Google Docs or SharePoint but more applicable to code script. Git is usually used in conjunction with a version control platform such as GitHub, GitLab, or Bitbucket. These tools were covered in Module 2.2.</p>
 <p>Version control enables the following:</p>
 <ul class="simple">
 <li><p>Helps developers keep track of changes to a project’s code (as well as supplemental files and documentation) over the entire course of a project’s evolution.</p></li>
@@ -656,9 +656,9 @@ document.write(`
 </tbody>
 </table>
 </div>
-<p>In addition, the following information is helpful to add to the README especially if they are not listed elsewhere:</p>
+<p>In addition, the following information is helpful to add to the README, especially if they are not listed elsewhere:</p>
 <ul class="simple">
-<li><p>A list of any code dependencies the software has, e.g. “Numpy, kitten-rng, and human- readable must be installed to run this software.”</p></li>
+<li><p>A list of any code dependencies the software has, e.g. “Numpy, kitten-rng, and human-readable must be installed to run this software.”</p></li>
 <li><p>How to install and a brief description of how to run the software.</p></li>
 <li><p>Detailed description of the software, especially if there is no external documentation.</p></li>
 <li><p>Examples of how to use the software.</p></li>
@@ -685,10 +685,10 @@ document.write(`
 <div><p><strong>Example</strong></p>
 <p># This function takes the image array and crops it from the center to 50% of the original size.</p>
 <p>Without going into details of the data type, calling parameters, etc. this description immediately puts someone looking at the code into the context of what the function aims to accomplish; they can then explore the details.</p>
-<p>While you should consider placing a description at the start of a function, use your discretion on where you put similar descriptions of code. At the start of a complex loop or analysis would be good ideas. Don’t go overboard - things like this aren’t useful:</p>
+<p>While you should consider placing a description at the start of a function, use your discretion on where you put similar descriptions of code. At the start of a complex loop or analysis would be a good idea. Don’t go overboard - things like this aren’t useful:</p>
 <p># set x to 17</p>
 <p>x = 17</p>
-<p>Descriptive variable, class, and function names can make your code very readable. . Sometimes even great coders are working fast and will name variables ‘a’, ‘temp’, or other names that probably won’t make a lot of sense in a week or two when they come back to something they were working on. Names like ‘baking_time’ or ‘velocity’ are more clear. Variable names should be easy to understand and clearly represent what they are.</p>
+<p>Descriptive variable, class, and function names can make your code very readable. Sometimes even great coders are working fast and will name variables ‘a’, ‘temp’, or other names that probably won’t make a lot of sense in a week or two when they come back to something they were working on. Names like ‘baking_time’ or ‘velocity’ are more clear. Variable names should be easy to understand and clearly represent what they are.</p>
 <p>Ideally, someone who doesn’t write in the software language of the code can read the comments in the file and have a rough idea of what is happening.</p>
 <p>Use the comments to put URLs that reference where you might have found the algorithm you’re using (e.g. Stack Overflow) or the journal paper where you found the formula you’re implementing.</p>
 </div></blockquote>
@@ -839,7 +839,7 @@ document.write(`
 <li><p>False</p></li>
 </ul>
 <p><strong>Statement 2:</strong></p>
-<p>Without a license, software is assumed copyrighted and without permissions.</p>
+<p>Without a license, software is assumed copyrighted and without permission.</p>
 <ul class="simple">
 <li><p>True</p></li>
 <li><p>False</p></li>
@@ -864,8 +864,8 @@ document.write(`
 <section id="code-review">
 <h3>Code Review<a class="headerlink" href="#code-review" title="Link to this heading">#</a></h3>
 <p>Code benefits from peer review in the same way as science. Having someone else read over your code and test it is one of the best ways to improve the quality of the code.</p>
-<p>Many version control platforms have built in tools that enable developers to review, comment, and iterate on each other’s code. These can be done in the open and allow anyone to comment.</p>
-<p>Here is a great example of the discussion that can happen when the original creator of an algorithm <a class="reference external" href="https://github.com/astropy/astropy/pull/4301">comments on a python implementation made by a first time contributor to the Astropy project</a>. The open and constructive discussion led to a better implementation of the algorithm along with possible future improvements.</p>
+<p>Many version control platforms have built-in tools that enable developers to review, comment, and iterate on each other’s code. These can be done in the open and allow anyone to comment.</p>
+<p>Here is a great example of the discussion that can happen when the original creator of an algorithm <a class="reference external" href="https://github.com/astropy/astropy/pull/4301">comments on a python implementation made by a first-time contributor to the Astropy project</a>. The open and constructive discussion led to a better implementation of the algorithm along with possible future improvements.</p>
 <p>Software packages can be reviewed as their own products as well. Many scientific publications now accept papers focused on software. There are entities like <a class="reference external" href="https://www.pyopensci.org/">PyOpenSci</a> and the <a class="reference external" href="https://joss.theoj.org/">Journal of Open Source Software</a> that provide open peer review of scientific packages. See more details about JOSS in the next lesson on sharing your code.</p>
 </section>
 <section id="testing">
@@ -876,7 +876,7 @@ document.write(`
   <thead>
     <tr>
         <th>SCIENTIFIC VALIDATION &#9745;</th>
-        <th>REPRODUCI-BILITY TESTING</th>
+        <th>REPRODUCIBILITY TESTING</th>
         <th>BUILT IN TESTS</th>
         <th>AUTOMATED TESTING</th>
     </tr>
@@ -893,7 +893,7 @@ document.write(`
   <thead>
     <tr>
         <th>SCIENTIFIC VALIDATION</th>
-        <th>REPRODUCI-BILITY TESTING &#9745;</th>
+        <th>REPRODUCIBILITY TESTING &#9745;</th>
         <th>BUILT IN TESTS</th>
         <th>AUTOMATED TESTING</th>
     </tr>
@@ -910,7 +910,7 @@ document.write(`
   <thead>
     <tr>
         <th>SCIENTIFIC VALIDATION</th>
-        <th>REPRODUCI-BILITY TESTING</th>
+        <th>REPRODUCIBILITY TESTING</th>
         <th>BUILT IN TESTS &#9745;</th>
         <th>AUTOMATED TESTING</th>
     </tr>
@@ -927,7 +927,7 @@ document.write(`
   <thead>
     <tr>
         <th>SCIENTIFIC VALIDATION</th>
-        <th>REPRODUCI-BILITY TESTING</th>
+        <th>REPRODUCIBILITY TESTING</th>
         <th>BUILT IN TESTS</th>
         <th>AUTOMATED TESTING &#9745;</th>
     </tr>
@@ -935,7 +935,7 @@ document.write(`
   <tbody>
     <tr>
         <td colspan="4">
-            <p>Built in tests can usually be run both manually and automatically. Most version control platforms offer services for running tests automatically. When run this way, code can be checked to see if changes raise any problems. This process of checking the code automatically as it is developed is called continuous development or continuous integration (CI/CD). If a small change made in one part of the code results in an unexpected change in another part, running the tests will uncover this immediately.</p>
+            <p>Built-in tests can usually be run both manually and automatically. Most version control platforms offer services for running tests automatically. When run this way, code can be checked to see if changes raise any problems. This process of checking the code automatically as it is developed is called continuous development or continuous integration (CI/CD). If a small change made in one part of the code results in an unexpected change in another part, running the tests will uncover this immediately.</p>
         </td>
     </tr>
   </tbody>
@@ -991,7 +991,7 @@ document.write(`
     <tr>
         <th>FINDABLE &#9745;</th>
         <th>ACCESSIBLE</th>
-        <th>INTER-OPERABLE</th>
+        <th>INTEROPERABLE</th>
         <th>REUSABLE</th>
     </tr>
   </thead>
@@ -1008,7 +1008,7 @@ document.write(`
     <tr>
         <th>FINDABLE</th>
         <th>ACCESSIBLE &#9745;</th>
-        <th>INTER-OPERABLE</th>
+        <th>INTEROPERABLE</th>
         <th>REUSABLE</th>
     </tr>
   </thead>
@@ -1025,7 +1025,7 @@ document.write(`
     <tr>
         <th>FINDABLE</th>
         <th>ACCESSIBLE</th>
-        <th>INTER-OPERABLE &#9745;</th>
+        <th>INTEROPERABLE &#9745;</th>
         <th>REUSABLE</th>
     </tr>
   </thead>
@@ -1042,7 +1042,7 @@ document.write(`
     <tr>
         <th>FINDABLE</th>
         <th>ACCESSIBLE</th>
-        <th>INTER-OPERABLE</th>
+        <th>INTEROPERABLE</th>
         <th>REUSABLE &#9745;</th>
     </tr>
   </thead>
@@ -1081,7 +1081,7 @@ document.write(`
 <td><p>Most languages have their own coding style adopted by their respective communities. Following those conventions makes it easier for others to contribute to your code and makes your project more inclusive.</p></td>
 </tr>
 <tr class="row-odd"><td><p><strong>Portability</strong></p></td>
-<td><p>Share details about how you are running the code, for example the version of a software library you are using, or the version of the compiler. These are often shared in an ‘environment.yml’ file.</p></td>
+<td><p>Allows individuals the ability to transfer their personal data between platforms.</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>Naming</strong></p></td>
 <td><p>Many historical terms used in software have negative connotations depending on the context. When considering different terms or naming, consider how different audiences may react to those terms.</p></td>
@@ -1135,7 +1135,7 @@ document.write(`
 </ul>
 <p><em>Question</em></p>
 <p><strong>04/05</strong></p>
-<p>Which of the following licenses allows users to reuse, but also require users to share their changes with the community using the same license?</p>
+<p>Which of the following licenses allows users to reuse, but also requires users to share their changes with the community using the same license?</p>
 <ul class="simple">
 <li><p>Public Domain</p></li>
 <li><p>Lesser general domain</p></li>

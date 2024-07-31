@@ -31,7 +31,7 @@ This is the first lesson in the module on the Ethos of Open Science. Let's begin
 
 "Ethos is the distinguishing character, sentiment, moral nature, or guiding beliefs of a person, group,"
 
-**Merriam Webster**
+**Merriam-Webster**
 
 ---
 
@@ -53,18 +53,13 @@ NASA funds research in fields from Astrobiology to Physics, and basic science to
 
 The open science practices and principles that play a critical role supporting NASA mission success are equally relevant to other government agencies and institutions. Similar considerations, approaches, and behaviors are needed in a variety of scientific contexts. Tools for open science frameworks and workflows follow generally similar models.
 
-Open science practices and principles can be applied to all stages of the research process. One early example of NASA’s efforts to involve more people in science is the [<u>exoplanet citizen science projects</u>](https://exoplanets.nasa.gov/citizen-science/). The [Exoplanet Explorers](https://www.zooniverse.org/projects/ianc2/exoplanet-explorers) project posed the questions:
-
-- Are small planets (like Venus) more common than big ones (like Saturn)?
-- Are short-period planets (like Mercury) more common than those on long orbits (like Mars)?
-- Do planets more commonly occur around stars like the Sun, or around the more numerous, cooler, smaller red dwarfs?
+Open science practices and principles can be applied to all stages of the research process. One early example of NASA's efforts to involve more people in science is the [exoplanet citizen science projects](https://exoplanets.nasa.gov/citizen-science/), with the [Exoplanet Explorers](https://www.zooniverse.org/projects/ianc2/exoplanet-explorers) being a significant part of this effort.
 
 <img src="../images/media/image266.jpg" style="width: 100%; height: auto;" />
 
-"Stargazing Live", a live television program, took place across three consecutive nights in 2017. The hosts invited viewers to contribute to their research question by classifying solar systems from an open access dataset. Within 48 hours of the program's
-debut, more than 10,000 people had participated in [Exoplanet Explorers](https://www.zooniverse.org/projects/ianc2/exoplanet-explorers) and classified over 2 million systems.
+"Stargazing Live", a live television program, took place across three consecutive nights in 2017. The hosts invited viewers to identify exoplanets in an open access dataset. Within 48 hours of the program's debut, more than 10,000 people had participated in [Exoplanet Explorers](https://www.zooniverse.org/projects/ianc2/exoplanet-explorers) and classified over 2 million systems.
 
-Following the first night of the program, the researchers watched the results roll in, as citizen scientists helped sift through the data. On the second night, enough people had participated that the researchers were able to share the demographics of the planet candidates that had already been flagged and were undergoing additional analysis: 44 Jupiter-size planets, 72 Neptune-size planets, 44 Earth-size planets and 53 sub-Neptunes (larger than Earth but smaller than Neptune).
+Following the first night of the program, the researchers watched the results roll in, as citizen scientists helped sift through the data. On the second night, enough people had participated that the researchers were able to share that 44 Jupiter-size candidate planets, 72 Neptune-size candidate planets, 53 sub-Neptune size candidate planets (larger than Earth but smaller than Neptune), and 44 Earth-size candidate planets had already been found and were undergoing additional analysis.
 
 Communities, working together on a problem, can rapidly find new results! Open science enables this and more.
 
@@ -91,15 +86,15 @@ Source: [https://www.pnas.org/doi/full/10.1073/pnas.1708290115](https://www.pnas
 
 <img src="../images/media/image242.png" style="width: 350px; height: auto;" />
 
-<img src="../images/media/image218.png" style="width:0.16667in;height:0.16667in" /> **No <img src="../images/media/image270.png" style="width:0.16667in;height:0.16667in" /> Yes**
-
 **Open Results Enable Iteration and Improve Error-Detection**
 
-In this section, we will look at an example of how closed science can restrict research impact by [following the outcome](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1318&context=usdeptcommercepub) of a highly cited journal article to understand how science functions to inform a field’s state of research, the decisions of policy makers, and the actions of society.
+In this section, we will look at an example of how closed science can restrict research impact by [following the outcome](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1318&context=usdeptcommercepub) of a highly cited journal article to understand how science functions to inform a field’s state of research, the decisions of policymakers, and the actions of society.
 
 <img src="../images/media/image220.png" style="width: 100%; height: auto;"/>
 
-A 1990 analysis of satellite data on climate temperature concluded that the upper atmosphere experienced no warming, a finding that contradicted early climate models predictions. Policymakers concluded from this result that researchers don't understand climate models enough to warrant changes in environmental policy. The processed data from this study were made open-access but, as was typical for the time, neither the original data nor the code used for processing and analyzing the data were shared by the original research team. Eight years after the article was published, other scientists noticed that the original authors didn't account for several important effects. This oversight introduced errors into the dataset and falsely produced artificial cooling to the temperature measurements. It took another five years and additional funding to reproduce the code and conduct a new analysis. Thirteen years after the original paper, it was confirmed that the upper atmosphere was warming and agreed with climate model predictions.
+A 1990 analysis of satellite data on climate temperature concluded that the upper troposphere experienced no warming, a finding that contradicted early climate models predictions. Policymakers concluded from this result that researchers don't understand climate models enough to warrant changes in environmental policy. The processed data from this study were made open-access but, as was typical for the time, neither the original data nor the code used for processing and analyzing the data were shared by the original research team. Eight years after the article was published, other scientists noticed that the original authors didn't account for several important effects. This oversight introduced errors into the dataset and falsely produced artificial cooling to the temperature measurements. It took another five years and additional funding to reproduce the code and conduct a new analysis. Thirteen years after the original paper, it was confirmed that the upper troposphere was warming and agreed with climate model predictions.
+
+*Note: Learn about the layers of Earth's atmosphere [here](https://www.sciencefacts.net/layers-of-atmosphere.html).*
 
 The inability for the scientific community to access an article’s original data and code slows the pace of discovery, thirteen years in this case, and forces other research teams to repeat the work (code) instead of moving on to new projects. This isn't the pace that we want to advance science, with one step forward and two steps back to iterate and resolve problems.
 
@@ -146,7 +141,7 @@ The Ethos of Open Science is a broad term that encompasses the moral and ethical
 Diverse practices, assumptions, and goals are just part of the complexity of open science. There are also divergent moral principles that guide open science communities. Such principles are captured in "codes of conduct". A code of conduct is a community governance mechanism that outlines the principles and practices expected of a given research community’s members, as well as the process for investigating and reprimanding those in violation of the code.
 
 In a sense, a code of conduct constitutes the moral backbone of a research community. However, as with the numerous schools of thought, there are similarly many codes of conduct. In other words, there is no one set of universal principles that all open science
-practitioners abide by. For example, consider how [OLS](https://openlifesci.org/code-of-conduct),  [INOSC](https://osf.io/6gsye), [allea](https://allea.org/portfolio-item/the-european-code-of-conduct-for-research-integrity-2/), [AGU](https://www.agu.org/Plan-for-a-Meeting/AGUMeetings/Meetings-Resources/Meetings-code-of-conduct) and [Ethical Source](https://ethicalsource.dev/community-code-of-conduct/) all have different codes of conducts and guiding principles.
+practitioners abide by. For example, consider how [OLS](https://openlifesci.org/code-of-conduct), [INOSC](https://osf.io/6gsye), [allea](https://allea.org/portfolio-item/the-european-code-of-conduct-for-research-integrity-2/), [AGU](https://www.agu.org/Plan-for-a-Meeting/AGUMeetings/Meetings-Resources/Meetings-code-of-conduct) and [Ethical Source](https://ethicalsource.dev/) all have different codes of conducts and guiding principles.
 
 This great diversity responds to the growing proliferation of open science initiatives and the great use we can make of open science approaches to knowledge.
 
@@ -297,7 +292,7 @@ As briefly discussed in previous lessons, open science doesn’t only involve re
 
 <img src="../images/media/image217.png" style="width: 100%; height: auto;" />
 
-Scientific research should benefit humanity. Although open science has many stakeholders, the advantageous interaction between science and society takes place among three core groups: scientific researchers, policymakers, and the public. Researchers do science and share their results with policy makers and the general public to inform their decisions and improve their lives. The public helps to fund research through taxes and can provide input to future areas of study. Policymakers help to implement measures that are informed by scientific results to improve the health, environment, and livability of society.
+Scientific research should benefit humanity. Although open science has many stakeholders, the advantageous interaction between science and society takes place among three core groups: scientific researchers, policymakers, and the public. Researchers do science and share their results with policymakers and the general public to inform their decisions and improve their lives. The public helps to fund research through taxes and can provide input to future areas of study. Policymakers help to implement measures that are informed by scientific results to improve the health, environment, and livability of society.
 
 These three stakeholder groups remain central to the world of open science. However, the inclusive nature of open science demands participation from the broader public. Growth in public participation in science can occur by removing barriers to those historically excluded and by expanding the community of people who support the scientific research itself.
 
@@ -334,7 +329,7 @@ Here we list some core groups who we envision as taking part in and/or benefitti
   <tbody>
     <tr>
         <td colspan="3">
-            <p>Policymakers represent another key community in the science environment. Policy makers can reference scientific findings to inform their decisions for the betterment of society. Those who help in the understanding and dissemination of these policies (including educators and science journalists) are crucial to this process. Policy makers can also play important roles in ensuring and facilitating open science by setting data management processes, encouraging open access legislation, and developing ethical guidelines for experiments. Policy makers can benefit from open science by gaining better access to scientific output via the open sharing of research results.</p>
+            <p>Policymakers represent another key community in the science environment. Policymakers can reference scientific findings to inform their decisions for the betterment of society. Those who help in the understanding and dissemination of these policies (including educators and science journalists) are crucial to this process. Policymakers can also play important roles in ensuring and facilitating open science by setting data management processes, encouraging open access legislation, and developing ethical guidelines for experiments. Policymakers can benefit from open science by gaining better access to scientific output via the open sharing of research results.</p>
         </td>
     </tr>
   </tbody>
@@ -406,8 +401,8 @@ Why is open science happening now?
 
 - Communicating research results is an integral aspect of science.
 - The internet and increasing availability of computers enables access by a much wider segment of society.
-- Researchers are mandated by law to share all their findings  and raw data immediately after conducting their experiments.
-- Open Science is happening now because of a global  shortage in academic professionals, necessitating widespread public involvement.
+- Researchers are mandated by law to share all their findings and raw data immediately after conducting their experiments.
+- Open Science is happening now because of a global shortage in academic professionals, necessitating widespread public involvement.
 
 *Question*
 

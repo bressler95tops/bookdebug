@@ -179,15 +179,15 @@ Most research code should be open source software, which is stored in code repos
 These are a few links to NASA-specific repositories that may be of interest: 
 - [NASA Open Source Software](https://code.nasa.gov/)
 - [NASA Open APIs](https://api.nasa.gov/)
-- [Science Discovery Engine A strophysics Data System](https://sciencediscoveryengine.nasa.gov/app/nasa-sba-smd/)
+- [Science Discovery Engine Astrophysics Data System](https://sciencediscoveryengine.nasa.gov/app/nasa-sba-smd/)
 - [Earthdata Developer Portal](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api)
-[Exoplanet Modeling and Analysis Center](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api)
+- [Exoplanet Modeling and Analysis Center](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api)
 
 ## Assessing Open Code and Software
 
 So, you've discovered some exciting open code that might help you solve your scientific problem. Can you trust this code you discovered on the web? Will it be useful? How much time will it take to learn it? Could the code contain malware? Could you get in legal trouble for using it?
 
-**Examples:** You found the “General Ocean Turbulence Model (GOTM)” on the internet, and it looks promising. Or, you just found lots of code snippets and functions related to the Lomb-Scargle power spectrum. Now you would like to assess these pieces of code to help you decide if you should use them. This section discusses some best practices for assessing if the code will help you.
+**Examples:** You found the “General Ocean Turbulence Model (GOTM)” on the internet, and it looks promising. Or, you just found lots of code snippets and functions related to the Lomb-Scargle power spectrum. Now, you would like to assess these pieces of code to help you decide if you should use them. This section discusses some best practices for assessing if the code will help you.
 
 ### Four General Considerations for Assessing Open Software
 
@@ -198,16 +198,16 @@ Software assessment criteria are similar, for any level of openness:
 - **Security:** Is it safe? Would using the software create a security risk?
 - **Licenses/restrictions:** Can you use it? Is it legal to use the software in your project?
 
-### Functionality: Assessing Scientiﬁc Utility
+### Functionality: Assessing Scientific Utility
 
-#### Does the software meet your scientiﬁc needs?** 
+#### Does the software meet your scientific needs?
 
 - Does it address your specific science question? 
 - Do studies similar to yours use it?
 - What papers cite it and how do they use it?
 - Talk to your advisors or colleagues that might have experience with it.
 
-#### Testing the scientiﬁc compatibility
+#### Testing the scientific compatibility
 
 - Does the software contain scientific test cases? If so, reproduce a case that is applicable to your problem; make sure the results are as expected.
 - If you’ve done similar scientific analysis/modeling previously, reproduce your prior results with the new software. Are the results consistent?
@@ -251,7 +251,7 @@ The risks are relatively low for small snippets of code that are easy for you to
 Open software is perceived to have more security risks. This is generally less of a problem for open source code than executables because the code can be audited for security vulnerabilities by the community. How can you assess security in this case?
 
 - Consult with your institutional open software policies and IT staff
-- Use authoritative reputable sources to minimize security risks
+- Use authoritative, reputable sources to minimize security risks
 - Set strict security rules and standards when using a dependency
 - Use security tools to check for vulnerabilities (e.g., [Open Worldwide Application Security</u> Project®](https://owasp.org/))
 - Avoid unsupported open-source software. Switch to actively developed components or develop it yourself
@@ -276,7 +276,7 @@ Consider the following when selecting among multiple versions of open source sof
 
 |  |  |
 |---|---|
-| Use the latest stable release when possible | Just like software updates to your phone or computer’s operating system or apps, it is important to use the latest stable release. Developers often release developmental versions that include new features or bug ﬁxes that are not fully tested. For this reason, using a developmental release is generally not recommended. |
+| Use the latest stable release when possible | Just like software updates to your phone or computer’s operating system or apps, it is important to use the latest stable release. Developers often release developmental versions that include new features or bug fixes that are not fully tested. For this reason, using a developmental release is generally not recommended. |
 | Determine the origin of the version you intend to use | Determine whether the version you intend to use comes from a modified open-source project or from its original source project. With this information, determine which source is more appropriate for your project. |
 | Check for issues and bugs | Check for any known issues or bugs with your selected version that could cause problems. Find current information on issues or bugs by checking release notes, issue trackers, and developer forums. |
 
@@ -285,7 +285,7 @@ Consider the following when selecting among multiple versions of open source sof
 - Implement tests to verify that the software performs as expected in your application.
 - If you run into problems, revisit the release notes, issue tracker, and/or user/developer forums.
 - Don't be afraid to ask experienced colleagues for help.
-- It is better to seek and obtain help in a public forum than in private (eg. email). Part of open science is working in the open. Often you may find through a search that other users have similar questions. Someone may have already offered a solution. If not, it is likely that others will benefit from your question being answered in public.
+- It is better to seek and obtain help in a public forum than in private (e.g., email). Part of open science is working in the open. Often you may find through a search that other users have similar questions. Someone may have already offered a solution. If not, it is likely that others will benefit from your question being answered in public.
 
 ### Activity 2.1: Ways to Get Help Using Open Software
 In this activity, you are asked to select from a list of ways you can resolve some common problems that arise when using open software.
@@ -341,7 +341,7 @@ Cite any code that you view as having contributed to your research:
 - Did the code play a critical part in your research?
 - Did the code provide something novel?
 
-In most cases, a code snippet on Stack Overflow does not constitute a citable research contribution. However, an author can still decide to cite it if they chose.
+In most cases, a code snippet on Stack Overflow does not constitute a citable research contribution. However, an author can still decide to cite it if they choose.
 
 Instances when shared code directly impacts the scientific results and requires a detailed description include:
 
@@ -350,11 +350,11 @@ Instances when shared code directly impacts the scientific results and requires 
 
 See the journal where you are publishing if they have any specific instructions on how to cite software (e.g., [AAS Software Citation Suggestions](https://journals.aas.org/news/software-citation-suggestions/)).
 
-In some cases, a software’s licensing terms and conditions require acknowledgement or citation in the references or bibliography of any publications based on research that made use of the software.
+In some cases, a software’s licensing terms and conditions require acknowledgment or citation in the references or bibliography of any publications based on research that made use of the software.
 
 ### How to cite?
 
-Ideally, use and cite code that is archived in a long-term repository with a persistent DOI. Follow the guidance about the preferred citation format, which is provided in the long- term repository and may appear in a README or a CITATION file.
+Ideally, use and cite code that is archived in a long-term repository with a persistent DOI. Follow the guidance about the preferred citation format, which is provided in the long-term repository and may appear in a README or a CITATION file.
 
 DOIs provide a persistent identifier/link for research outputs. Thus, it is preferable to cite code in long-term repositories linked to a DOI. URLs (e.g., Stack Overflow) and active repositories (e.g., on GitHub) are mutable but can be used if there is no alternative.
 
@@ -384,7 +384,7 @@ Discovering open software successfully depends on which of the following:
 
 Select all that apply.
 
-- Well defined requirements
+- Well-defined requirements
 - Knowing where to search
 - FAIR open software exists to meet your needs
 - All of the above

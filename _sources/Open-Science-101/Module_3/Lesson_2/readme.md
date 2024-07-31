@@ -26,7 +26,7 @@ After completing this lesson, you should be able to:
 
 Open data isn't always simple to use in your research. Sometimes there are multiple versions of the same dataset, so learning how to discover and assess and then use open data will help you save time.
 
-As an example, look at the monthly average carbon dioxide data from Mauna Loa Observatory in Hawaii. This is a foundational dataset for climate change. Not only is it one of the first observational datasets that clearly showed anthropogenic impacts on the Earth's atmosphere, it constitutes the longest record of direct measurements of carbon dioxide in the atmosphere. These observations were started by C. David Keeling of the Scripps Institution of Oceanography in March of 1958 at a facility of the National Oceanic and Atmospheric Administration \[Keeling, 1976\].
+As an example, look at the monthly average carbon dioxide data from Mauna Loa Observatory in Hawaii. This is a foundational dataset for climate change. Not only is it one of the first observational datasets that clearly showed anthropogenic impacts on the Earth's atmosphere, it constitutes the longest record of direct measurements of carbon dioxide in the atmosphere. These observations were started by C. David Keeling of the Scripps Institution of Oceanography in March 1958 at a facility of the National Oceanic and Atmospheric Administration \[Keeling, 1976\].
 
 <img src="../images/media/image19.jpeg" style="width:100%;height:auto;" />
 
@@ -51,8 +51,6 @@ There are multiple pathways to find research data, and you should be practiced i
 <img src="../images/media/image21.png" style="width:100%;height:auto;" />
 
 ### People You Know (Online or In-person!)
-
-When we show up to the present moment with all of our senses, we invite the world to fill us with joy. The pains of the past are behind us. The future has yet to unfold. But the now is full of beauty simply waiting for our attention.
 
 What is the first and best way to find research data? Ask your community, including your research advisor, colleagues, team members, and people online. Knowing where to find reliable, good data is as much a skill and art as any lab technique. You learn this skill set by working with professionals in your field. There is no one source, no one method.
 
@@ -245,8 +243,9 @@ Note that some of our example search portals are also repositories, but not alwa
             <p>Data stored in these repositories are often produced by the government.</p>
             <p>Examples include:</p>
             <ul>
-                <li><a href="https://data.gov/">https://data.gov/</a></li>
-                <li><a href="https://data.europa.eu/en">https://data.europa.eu/en</a></li>
+                <li>Sweden: <a href="https://snd.se/en">https://snd.se/en</a></li>
+                <li>European Union: <a href="https://data.europa.eu/en">https://data.europa.eu/en</a></li>
+                <li>Australia: <a href="https://www.naa.gov.au">https://www.naa.gov.au</a></li>
             </ul>
         </td>
     </tr>
@@ -292,7 +291,7 @@ Using open data for your project is contingent on a number of factors including 
 
 - Is the data available in a format appropriate for the content? 
 - Is the data available from a consistent location?
-- Is the data well-structured and machine readable?
+- Is the data well-structured and machine-readable?
 - Are complex terms and acronyms in the data defined? 
 - Does the data use a schema or data standard?
 - Is there an API available for accessing the data? 
@@ -324,7 +323,7 @@ Many datasets and repositories explain how they’d prefer to be cited. The cita
 
 - Authors and their institutions
 - Title
-- ORCiD
+- ORCID
 - DOI
 - Version
 - URL
@@ -343,7 +342,7 @@ Most datasets require (at a minimum) that you list the data’s producers, name 
 
 **Example from a NASA Distributed Active Archive Center (DAAC)**
 
-Matthew Rodell and Hiroko Kato Beaudoing, NASA/GSFC/HSL (08.16.2007), GLDAS CLM Land Surface Model L4 3 Hourly 1.0 x 1.0 degree Subsetted,version 001, Greenbelt, Maryland, USA:Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed on July 12th, 2018 at doi:10.5067/83NO2QDLG6M0
+Matthew Rodell and Hiroko Kato Beaudoing, NASA/GSFC/HSL (08.16.2007), GLDAS CLM Land Surface Model L4 3 Hourly 1.0 x 1.0 degree Subsetted, version 001, Greenbelt, Maryland, USA:Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed on July 12th, 2018 at doi:10.5067/83NO2QDLG6M0
 
 **Example from NASA Planetary Data System (PDS)**
 
@@ -381,7 +380,7 @@ Which of the following methods can be used for data discovery?
 Which of the following is/are questions to consider when assessing if a dataset can be used?
 
 - Is the data well described?
-- Is the data well-structured and machine readable?
+- Is the data well-structured and machine-readable?
 - Is there an existing community of users of the data?
 - What tools or software are needed to use this data?
 - Will the data be updated regularly?
@@ -396,7 +395,7 @@ What information is commonly found in a citation file?
 
 - Authors and their institutions
 - Title
-- ORCiD
+- ORCID
 - DOI
 - Version
 - URL

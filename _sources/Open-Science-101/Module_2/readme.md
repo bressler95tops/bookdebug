@@ -11,7 +11,7 @@ This module is designed to help you get started on your journey to practicing op
 - Define the foundational elements of open science, which includes research products, the "use, make, share" framework, and the role of an Open Science and Data Management Plan.
 - List and explain the purpose of resources used to discover and assess research products for reuse, including repositories, search portals, publications, documentation such as README files, metadata, and licensing.
 - Develop a high-level strategy for making and sharing data that employs the FAIR principles, incorporates a data management plan, tracks data and authors with persistent identifiers and citations, and utilizes the appropriate data formats and tools for making data and sharing results.
-- Describe the software lifecycle and design a high-level strategy for making and sharing software that considers the the use of a software management plan, the tools needed for development including source code, kernels, programming languages, third-party software and version control, and the tools and documentation used for publishing and curating open software.
+- Describe the software lifecycle and design a high-level strategy for making and sharing software that considers the use of a software management plan, the tools needed for development including source code, kernels, programming languages, third-party software and version control, and the tools and documentation used for publishing and curating open software.
 - List the resources for sharing research products including preprints, open access publications, reference management systems, and resources to support reproducibility.
 
 ## Key Terms
@@ -26,7 +26,7 @@ These key terms are important topics for this module. Select the term to see the
 
 **Computing Environment** – A platform that provides necessary software dependencies, a development area, and connections to computational resources to facilitate running code.
 
-**ORCiD** – A numeric code used to uniquely identify authors and contributors of scholarly communication. Researchers provide an ORCiD for publications and association memberships. ORCiD is also an international, interdisciplinary, open, non-proprietary, and not-for-profit organization created by the research community for the benefit of all stakeholders including ours and the organizations that support the research ecosystem.
+**ORCID** – A numeric code used to uniquely identify authors and contributors of scholarly communication. Researchers provide an ORCID for publications and association memberships. ORCID is also an international, interdisciplinary, open, non-proprietary, and not-for-profit organization created by the research community for the benefit of all stakeholders including ours and the organizations that support the research ecosystem.
 
 **Persistent Identifiers (PIDs)** - A long-lasting digital reference to an entity.
 

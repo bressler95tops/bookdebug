@@ -213,11 +213,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../About/About-Announcements.html">About NASA Transform to Open Science</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../About/tops_faq.html">Frequently Asked Questions</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Module_5/readme.html">OS101 Module 5: Open Results</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_1/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_2/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_3/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_4/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_5/readme.html">Just a test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_1/readme.html">Lesson 1: Introduction to Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_2/readme.html">Lesson 2: Using Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_3/readme.html">Lesson 3: Making Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_4/readme.html">Lesson 4: Sharing Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_5/readme.html">Lesson 5: From Theory to Practice</a></li>
 </ul>
 </details></li>
 </ul>
@@ -530,14 +530,14 @@ document.write(`
 <li><p>Define the different types of scientific data.</p></li>
 <li><p>Define what the acronym FAIR means and explain how it supports the sharing of open data.</p></li>
 <li><p>Identify data management practices and tools to locate data in repositories.</p></li>
-<li><p>List and explain the purpose of the resources commonly used in making data including the data formats, inspecting data, and assessing ‘FAIR’-ness of data.</p></li>
+<li><p>List and explain the resources commonly used in making data, including formatting, inspecting, and assessing the ‘FAIR’-ness of data.</p></li>
 </ul>
 </section>
 <section id="introduction-to-open-data">
 <h2>Introduction to Open Data<a class="headerlink" href="#introduction-to-open-data" title="Link to this heading">#</a></h2>
 <p>Data is a major part of scientific research, and why wouldn’t it be? It informs tools that we use, stories that we read, and decisions that we make on a daily basis.</p>
 <p>For instance, the open access <a class="reference external" href="https://emergency.copernicus.eu/">Copernicus Emergency Management Service</a> implemented by the European Commission produces 24/7 open access data collected by ESA and NASA satellites to produce maps that inform disaster preparedness and response efforts across the globe. This is only one example among many others demonstrating the value of data, particularly open and public data, in our daily life and for public good.</p>
-<p>Data shared openly in scientific research brings tremendous value to the scientific community and beyond, from indigenous communities to urban populations. Before understanding the broad based impact of data, let’s first look at what is data in the context of scientific research. Specifically, we will discuss the definition and characteristics of open data?</p>
+<p>Data shared openly in scientific research brings tremendous value to the scientific community and beyond, from indigenous communities to urban populations. Before understanding the broad based impact of data, let’s first look at what is data in the context of scientific research. Specifically, we will discuss the definition and characteristics of open data.</p>
 <section id="what-is-data">
 <h3>What is Data?<a class="headerlink" href="#what-is-data" title="Link to this heading">#</a></h3>
 <p>Scientific data is any type of information that is collected, observed, or created, in the context of research. It can be:</p>
@@ -555,7 +555,7 @@ document.write(`
 <h2>FAIR Principles<a class="headerlink" href="#fair-principles" title="Link to this heading">#</a></h2>
 <img alt="../../../_images/image28.png" src="../../../_images/image28.png" />
 <p>Just like driving on a road, if everyone follows agreed upon rules, everything goes much smoother. The rules don’t need to be exactly the same for every region, but share common practices based on insights about safety and efficiency.</p>
-<p>For example, maybe you drive on the left side of the road or the right side. Either is fine, those sort of details are for different communities to decide on. However, there are overarching guidelines shared by communities across the globe, such as the rule to drive on the road not the sidewalk, use a turn signal when appropriate, adhere to lights at intersections that direct traffic, and follow speed limits. Some communities may implement stricter rules than others, or practice them differently, but these guidelines help everyone move around safely through a common understanding of how to drive on roads. For scientific data, these guidelines are called the Findable, Accessible, Interoperable, Reusable or “FAIR” principles. They do to data what their title suggests. That is, these principles make it possible for others (and yourself) to find, get , understand, and use data correctly.</p>
+<p>For example, maybe you drive on the left side of the road or the right side. Either is fine, those sort of details are for different communities to decide on. However, there are overarching guidelines shared by communities across the globe, such as the rule to drive on the road not the sidewalk, use a turn signal when appropriate, adhere to lights at intersections that direct traffic, and follow speed limits. Some communities may implement stricter rules than others, or practice them differently, but these guidelines help everyone move around safely through a common understanding of how to drive on roads. For scientific data, these guidelines are called the Findable, Accessible, Interoperable, Reusable or “FAIR” principles. They do to data what their title suggests. That is, these principles make it possible for others (and yourself) to find, get, understand, and use data correctly.</p>
 <p><strong>Findable</strong>:</p>
 <p>To be <a class="reference external" href="https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/">Findable:</a></p>
 <ul class="simple">
@@ -570,7 +570,7 @@ document.write(`
 <li><p>PIDs: Persistent IDentifiers (additional details in the following sections)</p>
 <ul>
 <li><p><a class="reference external" href="https://www.doi.org/">Digital Object Identifier</a> (DOI): A top-level and a mandatory field in the metadata of each record - for data, code, publications.</p></li>
-<li><p><a class="reference external" href="https://orcid.org/">Open Research and Contributor ID</a> (ORCiD) - A code that uniquely identifies authors and contributors of research products and scholarly communication.</p></li>
+<li><p><a class="reference external" href="https://orcid.org/">Open Research and Contributor ID</a> (ORCID) - A code that uniquely identifies authors and contributors of research products and scholarly communication.</p></li>
 </ul>
 </li>
 </ul>
@@ -581,7 +581,7 @@ document.write(`
 <li><p>The protocol is open, free, and universally implementable.</p></li>
 <li><p>The protocol allows for an authentication and authorization procedure, where necessary. Data and results are publicly accessible and licensed under the public domain.</p>
 <ul>
-<li><p>Metadata are accessible, even when the data are no longer available Data and metadata will be retained for the lifetime of the repository.</p></li>
+<li><p>Metadata are accessible, even when the data are no longer available. Data and metadata will be retained for the lifetime of the repository.</p></li>
 <li><p>Metadata are stored in high-availability database servers.</p></li>
 </ul>
 </li>
@@ -591,7 +591,7 @@ document.write(`
 <li><p><a class="reference external" href="https://www.w3.org/Protocols/rfc959/">File Transfer Protocol (FTP)</a>, File Transfer Protocol Secure (FTPS)</p></li>
 <li><p><a class="reference external" href="https://www.w3.org/Protocols/">Hypertext Transfer Protocol (HTTP)</a>, Hypertext Transfer Protocol Secure (HTTPS)</p></li>
 </ul>
-<p>Note that Microsoft Exchange Server and Skype are examples of proprietary protocols.</p>
+<p>Note that Microsoft Exchange Server and Skype are examples of proprietary protocols. As always, it is necessary to balance accessibility with security concerns, which may impact the chosen protocol.</p>
 <p><strong>Interoperable</strong></p>
 <p>To be <a class="reference external" href="https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/">Interoperable:</a></p>
 <ul class="simple">
@@ -626,7 +626,7 @@ document.write(`
 <h2>Tools to Help with Planning For Open Data Creation<a class="headerlink" href="#tools-to-help-with-planning-for-open-data-creation" title="Link to this heading">#</a></h2>
 <section id="data-management-plan">
 <h3>Data Management Plan<a class="headerlink" href="#data-management-plan" title="Link to this heading">#</a></h3>
-<p>The previous lesson describes the requirements of a data management plan (DMP). Below are two open science resources to get you started or creating a data management plan:</p>
+<p>The previous lesson describes the requirements of a data management plan (DMP). Below are two open science resources to get you started on creating a data management plan:</p>
 <p><strong>DMPTool</strong></p>
 <p>The <a class="reference external" href="https://dmptool.org/">DMPTool</a> in the US helps researchers by featuring a template that lists a funder’s requirements for specific directorate requests for proposals (RFP). The DMPTool also publishes other open DMPs from funded projects that can be referenced to improve your own. The Research Data Management Organizer (RDMO) enables German institutions as well as researchers to plan and carry out their management of research data.</p>
 <p><strong>ARGOS</strong></p>
@@ -643,6 +643,7 @@ document.write(`
 <li><p><a class="reference external" href="https://openneuro.org/"><strong>OpenNeuro</strong></a> is an open platform for validating and sharing brain imaging data. The tools featured in Open Neuro enable easy access, search, and analysis of annotated datasets.</p></li>
 </ul>
 <p>Open science tools such as data repositories should implement FAIR principles, especially in the case of attribution of persistent identifiers (e.g., DOI), metadata annotation, and machine-readability.</p>
+<p>Additional examples of data repositories and other open science tools include but are not limited to:</p>
 <p><strong>ZENODO</strong></p>
 <p><a class="reference external" href="https://zenodo.org/">Zenodo</a> is an example of a data repository that allows the upload of research data and creates DOIs. Its popularity among the research community is due to its simplified interface, support of community curation, and feature that enables researchers to deposit diverse types of research outputs; from datasets and reports to publications, software, multimedia content.</p>
 <p><strong>DATAVERSE</strong></p>
@@ -781,7 +782,7 @@ These files require special software tools to view their contents. Many of these
 <p>Which of the following can help make your data FAIR? Select all that apply.</p>
 <ul class="simple">
 <li><p>Get a license for your data</p></li>
-<li><p>Make sure you develop your own metadata</p></li>
+<li><p>Make your metadata accessible only as long as your data is available</p></li>
 <li><p>Obtain a PID for your data</p></li>
 </ul>
 <p><em>Question</em></p>
@@ -791,7 +792,6 @@ These files require special software tools to view their contents. Many of these
 <li><p>Zenodo</p></li>
 <li><p>Dataverse</p></li>
 <li><p>Dryad</p></li>
-<li><p>Datacite</p></li>
 <li><p>Google</p></li>
 </ul>
 </section>

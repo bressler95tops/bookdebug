@@ -213,11 +213,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../About/About-Announcements.html">About NASA Transform to Open Science</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../About/tops_faq.html">Frequently Asked Questions</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Module_5/readme.html">OS101 Module 5: Open Results</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_1/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_2/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_3/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_4/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_5/readme.html">Just a test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_1/readme.html">Lesson 1: Introduction to Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_2/readme.html">Lesson 2: Using Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_3/readme.html">Lesson 3: Making Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_4/readme.html">Lesson 4: Sharing Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_5/readme.html">Lesson 5: From Theory to Practice</a></li>
 </ul>
 </details></li>
 </ul>
@@ -526,7 +526,7 @@ document.write(`
 </section>
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
-<p>In this lesson, you learn the criteria and tasks needed to ensure that the datasets you make are open and reusable. The lesson starts with a discussion on creating a data management plan and then continues with topics on selecting open data formats and how to include metadata, readme files, and version control for your data. It wraps up with a discussion on open licenses for data.</p>
+<p>In this lesson, you learn the criteria and tasks needed to ensure that the datasets you make are open and reusable. The lesson starts with a discussion on creating a data management plan and then continues with topics on selecting open data formats and how to include metadata, README files, and version control for your data. It wraps up with a discussion on open licenses for data.</p>
 </section>
 <section id="learning-objectives">
 <h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
@@ -587,7 +587,6 @@ document.write(`
 <p>A non-open (unsupported and closed/proprietary) data format refers to a file format that is not freely accessible, standardized, or widely supported by different software applications. Here are some examples of closed/proprietary data formats:</p>
 <ul class="simple">
 <li><p><strong>Adobe Photoshop (.psd):</strong> The default proprietary file format for Adobe Photoshop, a popular image editing software.</p></li>
-<li><p><strong>Microsoft Word (.doc/.docx):</strong> A proprietary file format used to store word processing data.</p></li>
 <li><p><strong>AutoCAD Drawing (.dwg):</strong> A proprietary data format used for computer-aided design (CAD).</p></li>
 </ul>
 <p>Software applications that can read but not create DOC, PSD, or DWG formatted data usually do not fully support all the features, layers, specifications, and inner workings of the original file.</p>
@@ -615,19 +614,22 @@ document.write(`
 <td><p>For simplicity, readability, compatibility, easy data exchange.</p></td>
 </tr>
 <tr class="row-odd"><td><p>Hierarchical Data Format (HDF)</p></td>
-<td><p>For efﬁcient storing and retrieving data, compression, multi-dimensional support.</p></td>
+<td><p>For efficient storing and retrieving data, compression, multi-dimensional support.</p></td>
 </tr>
 <tr class="row-even"><td><p>Network Common Data Form (NetCDF)</p></td>
-<td><p>For self-describing and portability, efﬁcient data subsetting (extract speciﬁc portions of large datasets), standardization and interoperability.</p></td>
+<td><p>For self-describing and portability, efficient data subsetting (extract specific portions of large datasets), standardization and interoperability.</p></td>
 </tr>
 <tr class="row-odd"><td><p>Investigation-Study- Assay (ISA) model for life science studies</p></td>
 <td><p>For structured data organization, data integration and interoperability among experiments, reproducibility and transparency.</p></td>
 </tr>
 <tr class="row-even"><td><p>Flexible Image Transport System (FITS)</p></td>
-<td><p>As a standard for astronomical data, ﬂexible and extensible metadata and image headers, efﬁcient data compression and archiving of large datasets.</p></td>
+<td><p>As a standard for astronomical data, flexible and extensible metadata and image headers, efficient data compression and archiving of large datasets.</p></td>
 </tr>
 <tr class="row-odd"><td><p>Common Data Format (CDF)</p></td>
 <td><p>For self-describing format readable across multiple operating systems, programming languages, and software environments, multidimensional data, and metadata inclusion.</p></td>
+</tr>
+<tr class="row-even"><td><p>Microsoft Word (.doc/.docx)</p></td>
+<td><p>A proprietary file format used to store word processing data.</p></td>
 </tr>
 </tbody>
 </table>
@@ -639,7 +641,7 @@ document.write(`
 <h2>Making the Data Reusable Through Documentation<a class="headerlink" href="#making-the-data-reusable-through-documentation" title="Link to this heading">#</a></h2>
 <section id="adding-documentation-and-metadata-for-reusability">
 <h3>Adding Documentation and Metadata for Reusability<a class="headerlink" href="#adding-documentation-and-metadata-for-reusability" title="Link to this heading">#</a></h3>
-<p>Metadata and data documentation describe data so that we and others can use and better understand data. While metadata and documentation are related, there is an important distinction. Metadata are structured, standardized, and machine readable. Documentation is unstructured and can be any format (often a text file that accompanies the data).</p>
+<p>Metadata and data documentation describe data so that we and others can use and better understand data. While metadata and documentation are related, there is an important distinction. Metadata are structured, standardized, and machine-readable. Documentation is unstructured and can be any format (often a text file that accompanies the data).</p>
 <p>To better understand documentation and metadata, let’s take an example of an online recipe. Many online recipes start with a long description and history of the recipe, and perhaps cooking or baking tips for the dish, before listing ingredients and step-by-step cooking instructions.</p>
 <ul class="simple">
 <li><p>The ingredients and instructions are like metadata. They can be indexed and searched via Google and other search engines.</p></li>
@@ -666,10 +668,10 @@ document.write(`
 <p>Metadata enhances searchability and findability of the data by potentially allowing both humans and machines to read and interpret datasets. Benefits to creating metadata about your data include:</p>
 <ul class="simple">
 <li><p>Helps users understand what the data are and if/how they can use/cite it.</p></li>
-<li><p>Helps users find the data, particularly when metadata is machine- readable and standardized.</p></li>
+<li><p>Helps users find the data, particularly when metadata is machine-readable and standardized.</p></li>
 <li><p>Can make analysis easier with software tools that interpret standardized metadata (e.g. Xarray).</p></li>
 </ul>
-<p>To be machine readable, the metadata needs to be standardized. See an example of a community-accepted standard for labeling climate datasets with the <a class="reference external" href="http://cfconventions.org/">CF Conventions</a>.</p>
+<p>To be machine-readable, the metadata needs to be standardized. See an example of a community-accepted standard for labeling climate datasets with the <a class="reference external" href="http://cfconventions.org/">CF Conventions</a>.</p>
 <p>There are also software packages that can read metadata and enhance the user experience significantly as a result. For instance, <a class="reference external" href="https://docs.xarray.dev/en/stable/index.html">Xarray</a> is an open-source, community developed software package that is widely used in the climate and biomedical fields, among many others. According to their website, “Xarray makes working with labeled multi-dimensional arrays in Python simple, efficient, and fun!”. It’s the “labeled” part where standardized metadata comes in! Xarray can interpret variable and dimension names without user input, making the workflow easier and less prone to making mistakes (e.g. users don’t have to remember which axis is “time” - they just need to call the axis with the label “time”).</p>
 <p>Many standards exist for metadata fields and structure to describe general data information. Use a standard from your domain when applicable, or one that is requested by your data repository.</p>
 </section>
@@ -734,10 +736,10 @@ document.write(`
 <p><strong><a class="reference external" href="https://www.cos.io/">Open Science Knowledge Base</a></strong></p>
 <hr class="docutils" />
 <p>If you don’t license your work, others can’t/shouldn’t re-use it - even if you want them to. As mentioned previously in this module, a license is a legal document that tells users how they can use the dataset. It is important to understand the licensing conditions of a dataset before data reuse to avoid any copyright infringement or other intellectual property issues.</p>
-<p>A dataset without a license does not mean that the data is open; using a licenseless dataset is not ethical. Contacting the data creator and getting explicit permission, while suggesting they apply a license, is the best path forward.</p>
+<p>A dataset without a license does not necessarily mean that the data is open. Using a license-less dataset may pose an ethical dilemma. Contacting the data creator and getting explicit permission, while suggesting they apply a license, is the best path forward.</p>
 <p>Understanding when and where the license applies is crucial. For example, data created using US Government public research funds is, by default, in the public domain. However, that only applies to the jurisdiction of the United States. In order for this to apply internationally, data creators need to select an open license.</p>
 <img alt="../../../_images/image34.jpeg" src="../../../_images/image34.jpeg" />
-<p>There are several different types of licenses that build on each other. Creative Commons (CC) licenses are often used for datasets. CC0 (also known as “public domain”) is the license that allows for the most reuse because it has the least restrictions on what users can do with it. Although the CC0 license does not explicitly require citation, you should still follow community best practices and cite the data source. CC-BY is another common license used for scientific data that requires citation. From there, you can add restrictions around commercial use, ability to adapt or modify the data, or requirements to share with the same license. These other flavors all reduce usability by adding restrictions, such that other scientists may be unable to use the data because of institutional or legal restrictions. Funding agencies may require use of a specific license. For public agencies, this is often CC-0 or CC-BY, to maximize their return on investment and ensure widest possible re-use.</p>
+<p>There are several different types of licenses that build on each other. Creative Commons (CC) licenses are often used for datasets. CC0 (also known as “public domain”) is the license that allows for the most reuse because it has the least restrictions on what users can do with it. Although the CC0 license does not explicitly require citation, you should still follow community best practices and cite the data source. CC-BY is another common license used for scientific data that requires citation. From there, you can add restrictions around commercial use, ability to adapt or modify the data, or requirements to share with the same license. These other flavors all reduce usability by adding restrictions, such that other scientists may be unable to use the data because of institutional or legal restrictions. Funding agencies may require use of a specific license. For public agencies, this is often CC-0 or CC-BY, to maximize their return on investment and ensure the widest possible re-use.</p>
 <section id="example-data-licenses-and-reuse">
 <h3>Example Data Licenses and Reuse<a class="headerlink" href="#example-data-licenses-and-reuse" title="Link to this heading">#</a></h3>
 <p>Here is an example of how a data license can affect reuse. Coupled Model Intercomparison Project Phase 6 (CMIP6) consists of the “runs” from around 100 distinct climate models being produced across 49 different modeling groups. This is the data that is used to understand what our future climate might look like. You have probably seen images that use this data in articles about Earth’s changing climate and how it may impact our lives. Previous versions of these data were licensed CC-BY-NC-SA (cite-noncommercial- sharealike).</p>

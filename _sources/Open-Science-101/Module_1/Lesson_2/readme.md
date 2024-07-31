@@ -62,14 +62,13 @@ Well-documented research products also demonstrate the quality of your work, whi
 
 ### Give and Get Credit When Using Results of Others
 
-<img src="../images/media/image262.png" style="width: 350px; height: auto;" />
-
-
-In addition to documenting your own research, the practice of giving credit to everyone who has contributed will strengthen your scientific community reputation and actualize the shared values of open science. As people gain confidence in the benefits of cooperative research, they will also start giving credit to more contributions that might previously have gone unacknowledged. Different work performed as part of a paper can be given in an author contribution statement like the example shared here.
-
 <img src="../images/media/image260.jpg" style="width: 100%; height: auto;" />
 
 The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 license. DOI: 10.5281/zenodo.3332807.
+
+In addition to documenting your own research, the practice of giving credit to everyone who has contributed will strengthen your scientific community reputation and actualize the shared values of open science. As people gain confidence in the benefits of cooperative research, they will also start giving credit to more contributions that might previously have gone unacknowledged. Different work performed as part of a paper can be given in an author contribution statement, often required by journals, like the example below taken from [this paper](https://journals.physiology.org/doi/full/10.1152/jn.00636.2019). Additionally, it is important to also include an acknowledgement statement to give credit to those who have shared resources, equipment, or knowledge, without which the final product or paper may not have been possible.
+
+<img src="../images/media/OS101_CJ_Author_Contributions.png" style="width:450px;height:auto;" />
 
 ---
 
@@ -81,9 +80,9 @@ In addition to improved scientific accuracy, adhering to open science practices 
 
 #### Emerging evidence that some aspects of open science can increase your citations.
 
-Publishing open access increases citation count by 18%, according to a 2018 [study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7176083/).
+Publishing open access increases citation count by 18%, according to a 2018 [study](https://peerj.com/articles/4375/).
 
-Articles that make their data openly accessible via a direct link to a repository see ~25% higher citation impact, according to a 2020 study.
+Articles that make their data openly accessible via a direct link to a repository see ~25% higher citation impact, according to a 2020 [study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7176083/).
 
 Publishing as open access may have prohibitive costs for some researchers depending on the venue. There are often other options that allow authors to share their work freely and openly. In Module 5 on Open Results, we discuss some of these other options including preprints and diamond open access.
 
@@ -142,7 +141,7 @@ Here is an example of open science that was able to correct errors in a healthca
 
 ### Open Science Leads to More Discoveries
 
-The Solar and Heliospheric Observatory (SOHO) has been sending home images of our dynamic sun, opening up a new era of solar observation. It was designed for heliophysics. However, planetary scientists found SOHO useful for its ability to spot comets that pass extremely close to the sun, known as sungrazers. To this day, SOHO is one of the best sources for views of the giant surface explosions regularly produced by the sun called coronal mass ejections, or CMEs, which can hurl a million tons of solar particles off into space. This field of view is large enough to see a sungrazing comet as it sling shots around the sun.
+The Solar and Heliospheric Observatory (SOHO) has been sending home images of our dynamic sun, opening up a new era of solar observation. It was designed for heliophysics. However, planetary scientists found SOHO useful for its ability to spot comets that pass extremely close to the sun, known as sungrazers. To this day, SOHO is one of the best sources for views of the giant surface explosions regularly produced by the sun called coronal mass ejections, or CMEs, which can hurl a million tons of solar particles off into space. This field of view is large enough to see a sungrazing comet as it slingshots around the sun.
 
 SOHO's great success as a comet finder is, of course, dependent on the people who sift through SOHO's data – a task made open to the world through real-time publicly available data.
 
@@ -154,7 +153,7 @@ In 2022 though, NASA decided to fund a challenge open to the public to develop n
 
 ### Quality and Diversity of Scholarly Communications
 
-Furthermore, open science improves the state of scientific literature. Scientific journals have traditionally faced the severe issue of publication bias, where journal articles overwhelmingly feature novel and positive results, according to a 2018 [study](https://pubmed.ncbi.nlm.nih.gov/30523135/). This results in a state where scientific results in certain disciplines published scientific results may have a number of exaggerated effects, or even be “false positives” (wrongly claiming that an effect exists), making it difficult to evaluate the trustworthiness of published results, according to a 2011 and 2016 study. Open science practices, such as registered reports, mitigate publication bias and improve the trustworthiness of the scientific literature. Registered reports are journal publication formats that peer-review and accept articles before data collection is undertaken, eliminating the pressure to distort results, according to a 2022 [study](https://www.nature.com/articles/s41562-021-01193-7). Other open science practices, such as pre-registration, also allows a partial look into projects that for various reasons (such as lack of funding, logistical issues or shifts in organizational priorities) have not been completed or disseminated, according to a 2023 [study](https://pubmed.ncbi.nlm.nih.gov/34396837/), giving these projects a publicly available output that can help inform about the current state research.
+Furthermore, open science improves the state of scientific literature. Scientific journals have traditionally faced the severe issue of publication bias, where journal articles overwhelmingly feature novel and positive results, according to a 2018 [study](https://pubmed.ncbi.nlm.nih.gov/30523135/). This results in a state where scientific results in certain disciplines published may have a number of exaggerated effects, or even be "false positives" (wrongly claiming that an effect exists), making it difficult to evaluate the trustworthiness of published results, according to a 2011 and 2016 study. Open science practices, such as registered reports, mitigate publication bias and improve the trustworthiness of the scientific literature. Registered reports are journal publication formats that peer-review and accept articles before data collection is undertaken, eliminating the pressure to distort results, according to a 2022 [study](https://www.nature.com/articles/s41562-021-01193-7). Other open science practices, such as pre-registration, also allows a partial look into projects that for various reasons (such as lack of funding, logistical issues or shifts in organizational priorities) have not been completed or disseminated, according to a 2023 [study](https://pubmed.ncbi.nlm.nih.gov/34396837/), giving these projects a publicly available output that can help inform about the current state research.
 
 <img src="../images/media/image254.png" style="width: 350px; height: auto;" />
 
@@ -171,7 +170,7 @@ By using openly available tools and making our scientific process and products m
 
 The mainstream adoption of open science began relatively recently. The potential benefits of open science extend beyond research through contributions to society and policy.
 
-Collaboration, innovation, education, technology advancement, and science-based public policy are all improved by the open availability of research products. Sharing all research products (eg. data, code, results) makes the scientific process more transparent which may help increase public trust in science. Also, open science encourages IDEA (Inclusion, Diversity, Equity, Accessibility), and increases involvement of citizen-scientists and non-experts in the research process. The inclusion of diverse perspectives from an open community invites unique perspectives that contribute to a more robust and often more accurate scientific outcome.
+Collaboration, innovation, education, technology advancement, and science-based public policy are all improved by the open availability of research products. Sharing all research products (e.g., data, code, results) makes the scientific process more transparent which may help increase public trust in science. Also, open science encourages IDEA (Inclusion, Diversity, Equity, Accessibility), and increases involvement of citizen-scientists and non-experts in the research process. The inclusion of diverse perspectives from an open community invites unique perspectives that contribute to a more robust and often more accurate scientific outcome.
 
 <img src="../images/media/image264.png" style="width: 350px; height: auto;" />
 
@@ -196,7 +195,7 @@ Open science reciprocates the benefits it provides to researchers onto the commu
 
 Through open science practices, research waste can be avoided, such as unintentional and costly repetition of previous studies, according to a 2020 European Commission [report](https://op.europa.eu/en/publication-detail/-/publication/6bc538ad-344f-11eb-b27b-01aa75ed71a1). In the human sciences, this also reduces participant fatigue in the long term. By maximizing what is learned from publicly available data, one does not need to test repeatedly, especially on already vulnerable communities. By “giving away” science, individuals, communities and organizations can more easily adopt research results to inform interventions for their own needs without the knowledge being gatekept by the original researchers and organizations involved. In this way, open science can strengthen the social and economic impacts of scientific results.
 
-### Open Science Attracts a Diverse Set of Participant
+### Open Science Attracts a Diverse Set of Participants
 
 <img src="../images/media/image265.jpg" style="width: 350px; height: auto;" />
 
@@ -206,7 +205,7 @@ Image credit: Andy Brunning/Compound Interest. **CC BY-NC-ND 4.0 DEED**
 
 The open sharing of scientific products and processes makes science accessible to everyone. This allows full participation from everyone, and also maximizes the number of people who can benefit from the work.
 
-The best ways to include a diverse group of open science practitioners and stakeholders are to remove existing barriers and design for inclusion. Beyond this, it is important to learn how to communicate effectively with diverse collaborators, people at different skill levels, career levels, backgrounds, and areas of expertise. The ability to build diverse teams is a skill that everyone can learn.
+The best ways to include a diverse group of open science practitioners and stakeholders are to remove existing barriers and design for inclusion. Beyond this, it is important to learn how to communicate effectively with diverse collaborators, people at different skill levels, career levels, backgrounds, and areas of expertise. The ability to build diverse teams is a skill that everyone can learn. To learn more about NASA's commitment to diversity and inclusion, click [here](https://www.nasa.gov/odeo/diversity-and-inclusion/).
 
 ### Key Takeaways: Beneﬁts to Society
 

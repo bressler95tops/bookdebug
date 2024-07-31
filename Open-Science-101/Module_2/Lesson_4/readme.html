@@ -213,11 +213,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../About/About-Announcements.html">About NASA Transform to Open Science</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../About/tops_faq.html">Frequently Asked Questions</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Module_5/readme.html">OS101 Module 5: Open Results</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_1/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_2/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_3/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_4/readme.html">Just a test</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_5/readme.html">Just a test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_1/readme.html">Lesson 1: Introduction to Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_2/readme.html">Lesson 2: Using Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_3/readme.html">Lesson 3: Making Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_4/readme.html">Lesson 4: Sharing Open Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Module_5/Lesson_5/readme.html">Lesson 5: From Theory to Practice</a></li>
 </ul>
 </details></li>
 </ul>
@@ -576,7 +576,7 @@ document.write(`
 <p>Version control is the practice of tracking and managing changes made to code or other types of files. You may be familiar with “Track changes” in software like Microsoft Word. This is a form of version control, though not one well-suited to working with code. Version control is considered standard practice in the software development community, and simplifies management of code through time.</p>
 <p>The general way we use version control starts by initializing a folder on your computing platform with the version control system you are using. A version control system automatically tracks all changes made by contributors and allows you to work offline and return later with updates. You write code as you usually do in your code editor of choice. After you have written some code or made some updates to existing code, you then commit those changes to the version control system to create a sort of “checkpoint” that you can then revert back to later if necessary. Then you add or update more code, and commit changes again. Each commit requires you to add a short message which lets you briefly describe what changes were made. These messages serve as metadata that ensures collaborators, future users, and future you understand your development process at a point in time.</p>
 <p>This may sound like a simple process, and in many ways it is! So why is it so important? Especially when it comes to coding, the ability to create a snapshot in time of a piece of code can be very helpful. For instance, you may have a piece of code that yields the intended result, but then you want to add a new function. You may choose to copy that code file so you don’t lose the current state, and then work in a new file. This can become cumbersome pretty quickly when you have multiple files that are different versions of the same piece of code. Or instead of creating a new file, you may write code for the new function directly in the original file, but now the code throws errors when you try to run it, and you can’t remember which lines you added since the last time the code ran without errors. By using version control, these problems are solved because we can revert back to the checkpoint when the code ran cleanly, and thereby avoid the need to create multiple copies to save the original piece of code.</p>
-<p>There are many other features of version control systems, such as the concept of creating “branches” that allow you to work on new updates to a piece of code independently from and in parallel to the original piece of code. A branch is a deviation from the original code, but can be merged back into the original code when desired. All of these concepts are even more useful when collaborating with others using version control platforms, a collaborative practice that will be discussed later in this lesson.</p>
+<p>There are many other features of version control systems, such as the concept of creating “branches” that allow you to work on new updates to a piece of code independently of and in parallel to the original piece of code. A branch is a deviation from the original code, but can be merged back into the original code when desired. All of these concepts are even more useful when collaborating with others using version control platforms, a collaborative practice that will be discussed later in this lesson.</p>
 </section>
 <section id="types-of-software-version-control">
 <h3>Types of Software Version Control<a class="headerlink" href="#types-of-software-version-control" title="Link to this heading">#</a></h3>
@@ -717,7 +717,7 @@ document.write(`
 <p>In open science, where transparency and accessibility are paramount, IDEs often incorporate version control systems like Git to facilitate collaboration and ensure that a research codebase is readily available for others to use and improve. Additionally, many IDEs integrate with data analysis and visualization tools. This makes it easier for scientists to analyze and interpret their data, ultimately contributing to the advancement of open code science practices.</p>
 <p>If you were in a room with 10 developers and asked them each what their favorite code editor is, you would get many different responses. In this lesson, we will go over a few of the more popular varieties.</p>
 <p><strong>Source-Code Editing &amp; Kernels – The Value of IDEs and Kernels</strong></p>
-<p>IDEs can bring a lot of good tools to your efforts. It’s not just about editing code any more. Modern, robust IDEs can do most of the things listed here, if not more. One can use an IDE without executing in a kernel; one can use a kernel without having developed code in an IDE. However, they can work hand-in-hand.</p>
+<p>IDEs can bring a lot of good tools to your efforts. It’s not just about editing code anymore. Modern, robust IDEs can do most of the things listed here, if not more. One can use an IDE without executing in a kernel; one can use a kernel without having developed code in an IDE. However, they can work hand-in-hand.</p>
 <table>
   <thead>
     <tr>
@@ -786,15 +786,15 @@ document.write(`
 <li><p>Upload your changes directly to GitHub.</p></li>
 <li><p>Download changes from other team members to your local system.</p></li>
 </ul>
-<p><strong>IDE Example: Rstudio – IDE</strong></p>
+<p><strong>IDE Example: RStudio – IDE</strong></p>
 <p>While Visual Studio Code is a more generic IDE where you can use plugins to specialize it, there are also IDEs, such as RStudio, that have specialized features for specific languages right out of the gate.</p>
 <p>Researchers conducting statistical analysis tend to use the coding languages of R and Python. RStudio has built-in tools for that very purpose, including data visualization.</p>
 <img alt="../../../_images/image36.jpeg" src="../../../_images/image36.jpeg" />
-<p>Source:  https://en.wikipedia.org/wiki/File:RStudio_IDE_screenshot.png</p>
+<p>Source: https://en.wikipedia.org/wiki/File:RStudio_IDE_screenshot.png</p>
 </section>
 <section id="plain-text-editors-for-coding">
 <h3>Plain Text Editors for Coding<a class="headerlink" href="#plain-text-editors-for-coding" title="Link to this heading">#</a></h3>
-<p>Most laptop or desktop computers that run standard operating systems (Windows, MacOS, Linux) have multiple pre-installed plain-text editors that can be used for coding. It is beneficial to know how to use at least one, because it makes editing scripts and files a quick process.</p>
+<p>Most laptop or desktop computers that run standard operating systems (Windows, macOS, Linux) have multiple pre-installed plain-text editors that can be used for coding. It is beneficial to know how to use at least one, because it makes editing scripts and files a quick process.</p>
 <table>
   <colgroup>
     <col style="width: 49%" />
@@ -854,7 +854,7 @@ document.write(`
 <p>Let’s use an example from Project Pythia to showcase how computational notebooks can be used in science. Project Pythia is an education Hub for the geoscientific community. They have some great learning resources and example research notebooks that are developed and maintained by the community, and are freely available.</p>
 <p>In this activity, you will run pre-written Python code in a Jupyter Notebook from your browser to make plots related to the El-Niño Southern Oscillation (or ENSO). You will use the open-source software package called Xarray to read in sea surface temperature data from a global climate model (the Community Earth System Model - CESM), and create some visualizations of ENSO events across the last 20 or so years. The goal is to recreate the plot below for the last ~20 years. This figure shows the years and magnitude of the El Niño events in red and of the La Niña events in blue.</p>
 <p><img alt="" src="../../../_images/image39.jpeg" /></p>
-<p>Source:  <a class="reference external" href="https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni">https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni</a></p>
+<p>Source: <a class="reference external" href="https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni">https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni</a></p>
 <hr class="docutils" />
 <p>Follow These Steps:</p>
 <ol class="arabic simple">
@@ -926,7 +926,7 @@ document.write(`
 <li><p>Google Cloud</p></li>
 <li><p>Microsoft Azure</p></li>
 </ul>
-<p>Many data providers, especially of large datasets, are migrating their data to the Cloud to increase accessibility and to make use of the large storage capacity that the Cloud provides. For instance, NASA Earthdata (which houses all NASA Earth science data) is now using AWS to store the majority of its data. Many Cloud providers also have a number of publicly available datasets, including  <a class="reference external" href="https://cloud.google.com/storage/docs/public-datasets/#%3A~%3Atext%3DAvailable%20public%20datasets%20on%20Cloud%20Storage%201%20ERA5%3A%2Cfrom%202015%20through%20the%20present.%20...%20More%20items">Google Cloud</a> and <a class="reference external" href="https://registry.opendata.aws/">AWS</a><a class="reference external" href="https://cloud.google.com/storage/docs/public-datasets/#%3A~%3Atext%3DAvailable%20public%20datasets%20on%20Cloud%20Storage%201%20ERA5%3A%2Cfrom%202015%20through%20the%20present.%20...%20More%20items">.</a></p>
+<p>Many data providers, especially of large datasets, are migrating their data to the Cloud to increase accessibility and to make use of the large storage capacity that the Cloud provides. For instance, NASA Earthdata (which houses all NASA Earth science data) is now using AWS to store the majority of its data. Many Cloud providers also have a number of publicly available datasets, including <a class="reference external" href="https://cloud.google.com/storage/docs/public-datasets/#%3A~%3Atext%3DAvailable%20public%20datasets%20on%20Cloud%20Storage%201%20ERA5%3A%2Cfrom%202015%20through%20the%20present.%20...%20More%20items">Google Cloud</a> and <a class="reference external" href="https://registry.opendata.aws/">AWS</a><a class="reference external" href="https://cloud.google.com/storage/docs/public-datasets/#%3A~%3Atext%3DAvailable%20public%20datasets%20on%20Cloud%20Storage%201%20ERA5%3A%2Cfrom%202015%20through%20the%20present.%20...%20More%20items">.</a></p>
 <p>When choosing a computing platform, it is important to consider where your datasets are saved and how big the datasets are. For instance, when working with small datasets, it is often preferable to use a personal computer since data download will take minimal time and large computing resources likely aren’t needed. When working with large datasets, however, it is best to minimize the amount of downloading and uploading data that is needed, as this can take significant amounts of time and internet bandwidth. If your large datasets are stored on the Cloud already, it is typically best to use Cloud resources for the computation as well, and likewise for HPC use.</p>
 </section>
 </section>
