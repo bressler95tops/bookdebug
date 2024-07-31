@@ -20,7 +20,7 @@ Though not required, it can be a good idea to include plans for making your resu
 
 ### Activity 5.1: Pen to Paper
 
-<img class="image-small" src="../images/media/image21.png" style="width:350px;height:auto;" />
+<img class="tops-image-small" src="../images/media/image21.png" style="width:350px;height:auto;" />
 
 Write a sample results section of an OSDMP that details how you would plan to make your results open. Think about an example from your research and what details you would need to include to convince reviewers that you will share open access results.
 
