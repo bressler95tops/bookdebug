@@ -70,11 +70,10 @@ As discussed previously in this curriculum, there are many benefits to sharing a
 
 ### Should the Data be Shared?
 
-Before datasets are shared, it’s important to consider any restrictions to your permission to share and ensure that your contributors – including sample and data donors – approve its release.
+Before datasets are shared, it's important to consider any restrictions to your permission to share and ensure that your contributors – including sample and data donors – approve its release.
 
-Data should be as open as possible and as closed as necessary.
+Data should be as open as possible and as closed as necessary. Opening our data is a powerful way to enable discovery, transparency, and scientific progress. However you may want to consider a couple of points before data is shared:
 
-- Opening our data is a powerful way to enable discovery, transparency, and scientific progress.
 - Some data are subject to laws, regulations, and policies which limit the release of the data.
 - Your local institution may have additional policies and resources – investigate them early and often.
 
@@ -144,7 +143,7 @@ If you do not already have a data repository in mind, consider the following to 
 - Do you think the tools offered by the repository for data discovery and distribution are suitable for your data and FAIR?
 - Does the repository require funding from your project, does it fit within your budget and does it require sustained support beyond the project life cycle?
 
-Find and compare the services, beneﬁts and limitations of the repositories you are considering. Each repository will have its own processes and requirements for accepting and hosting your data depending on their level of funding, purpose, and user base.
+Find and compare the services, benefits and limitations of the repositories you are considering. Each repository will have its own processes and requirements for accepting and hosting your data depending on their level of funding, purpose, and user base.
 
 Similarly, each repository will provide a different set of functionality and services depending on their level of funding, purpose, and user base.
 
@@ -256,7 +255,7 @@ The goal is to make it easy to cite your data. Best practices include:
 - Different repositories and journals have different standards for how to cite data. If your repository encourages it, include a .CFF file with your data that explains how to cite your data.
 - Clearly identify the data creators and/or their institution in your citation.
   - This allows users to follow up with the creators if they have questions or discover issues.
-  - Include ORCiD of data authors where possible in the citation.
+  - Include ORCID of data authors where possible in the citation.
 
 Now that your data are at a repository and have a citation statement and DOI, publicize it to your users and remind them to cite your data in their work!
 
@@ -301,7 +300,7 @@ Sharing data should be respectful of the communities that may be involved. This 
 - Privacy concerns and approval processes for release - is the data appropriately anonymized?
 - How to engage with communities that data may be about.
 - How data can be correctly interpreted.
-- Are there any data restrictions that may be necessary to ensure the sharing is respectful of the community the data involves, eg. collective and individual rights to free, prior, and informed consent in the collection and use of such data, including the development of data policies and protocols for collection?
+- Are there any data restrictions that may be necessary to ensure the sharing is respectful of the community the data involves, e.g., collective and individual rights to free, prior, and informed consent in the collection and use of such data, including the development of data policies and protocols for collection?
 
 ## Lesson 4: Summary
 

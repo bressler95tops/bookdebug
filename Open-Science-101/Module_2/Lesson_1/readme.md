@@ -35,7 +35,9 @@ After completing this lesson, you should be able to:
 
 Scientific knowledge, or research products, take the form of:
 
- <img src="../images/media/image5.png" style="width:350px;height:auto;" />
+<img src="../images/media/image5.png" style="width:350px;height:auto;" />
+
+Within these research products are additional types of products, such as methodologies, algorithms, and physical artifacts.
 
 ### What is Data?
 
@@ -58,9 +60,7 @@ Many scientists write source code to produce software to analyze data or model o
 
 **Operational and Infrastructure Software** – Software used by data centers and large information technology facilities to provide data services.
 
-**Libraries** – No creative process is truly complete until it manifests a tangible reality. Whether your idea is an action or a physical creation, bringing it to life will likely involve the hard work of iteration, testing, and refinement.
-
-Just be wary of perfectionism. Push yourself to share your creations with others. By maintaining an open stance, you’ll be able to learn from their feedback. Consider their responses new material that you can draw from the next time you’re embarking on a creative endeavor.
+**Libraries** – Generic tools that implement well-known algorithms, provide statistical analysis or visualization, etc., which are incorporated in other software categories.
 
 **Modeling and Simulation Software** – Software that either implements solutions to mathematical equations given input data and boundary conditions, or infers models from data.
 
@@ -108,7 +108,7 @@ Data can be easily shared through many different services - the best way for sci
 
 ### Sharing Open Code
 
-When sharing open code, it is often through an online version controlled platform that allows others to contribute to the software and provides a history of changes to the software. For example, many researchers choose to post code files on  [GitHub](https://github.com/) with a BSD 3-Clause license. This permits others to contribute and reuse the software. Steps to preserve code and make it discoverable are discussed in Module 4 - Open Code.
+When sharing open code, it is often through an online version controlled platform that allows others to contribute to the software and provides a history of changes to the software. For example, many researchers choose to post code files on [GitHub](https://github.com/) with a BSD 3-Clause license. This permits others to contribute and reuse the software. Steps to preserve code and make it discoverable are discussed in Module 4 - Open Code.
 
  <img src="../images/media/image9.png" style="width:100%;height:auto;" />
 
@@ -132,9 +132,9 @@ Here is an example of how one group openly shared their data, results, software,
 
  **Data**
 
- This version:  [https://doi.org/10.5281/zenodo.3688691](https://doi.org/10.5281/zenodo.3688691)
+ This version: [https://doi.org/10.5281/zenodo.3688691](https://doi.org/10.5281/zenodo.3688691)
 
-All versions:  [https://doi.org/10.5281/zenodo.3688690](https://doi.org/10.5281/zenodo.3688690)
+All versions: [https://doi.org/10.5281/zenodo.3688690](https://doi.org/10.5281/zenodo.3688690)
 
 <img src="../images/media/image12.jpeg" style="width:100%;height:auto;" />
 
@@ -146,9 +146,9 @@ All versions:  [https://doi.org/10.5281/zenodo.3688690](https://doi.org/10.5281/
 
 Software
 
-This version:  [https://github.com/c-h-david/rapid](https://github.com/c-h-david/rapid) 
+This version: [https://github.com/c-h-david/rapid](https://github.com/c-h-david/rapid) 
 
-All versions:  [https://doi.org/10.5281/zenod](https://doi.org/10.5281/zenod)
+All versions: [https://zenodo.org/records/10161527](https://zenodo.org/records/10161527)
 
 
 ## Lesson 1: Summary

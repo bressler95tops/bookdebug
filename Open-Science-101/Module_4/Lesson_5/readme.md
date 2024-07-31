@@ -68,7 +68,7 @@ The following material assumes that you have met the threshold and are writing a
 
 ### Pen to Paper: Getting Started Writing a Plan
 
-If you are applying for funding, it is almost guaranteed that there will be specific data management requirements detailed in the funding opportunity. For example, the funder may require a certain license or use of a specific repository. Make sure to cross reference your plan with these requirements.
+If you are applying for funding, it is almost guaranteed that there will be specific data management requirements detailed in the funding opportunity. For example, the funder may require a certain license or use of a specific repository. Make sure to cross-reference your plan with these requirements.
 
 **Examples of Software Management Plans**
 
@@ -168,7 +168,7 @@ Subscribe to and/or participate in forums (e.g., GitHub discussions, Stack Overf
 
 **Explore: The Turing Way**
 
-**Hit the button to ﬁnd out more information on building a community.**
+**Hit the button to find out more information on building a community.**
 
 [CLICK TO LEARN](https://the-turing-way.netlify.app/collaboration/new-community.html)
 
@@ -194,7 +194,7 @@ There are several types of contributing to open software. Not all of them requir
 |---|---|
 | **Add New Features** | The most obvious case for contributing to open software is enhancing its usability by adding new features. |
 | **Fix Bugs** | Alternatively, you can reply to an already opened issue by fixing it. |
-| **Report Issues and Make Suggestions About Improving Code** | Reporting an issue is a valuable contribution even if you don’t know how to fix it. For example, you might be using a different browser in which the software has not been tested yet, have discovered a particularly uninformative error message, be colorblind or be otherwise able to feed a valuable user experience back to the developers that can help to improve the overall usability of the software. |
+| **Report Issues and Make Suggestions About Improving Code** | Reporting an issue is a valuable contribution even if you don't know how to fix it. For example, you might be using a different browser in which the software has not been tested yet, have discovered a particularly uninformative error message, or be unable to feed a valuable user experience back to the developers that can help to improve the overall usability of the software. |
 | **Improving and Contributing to Documentation** | Contributing to documentation constitutes a great starting point to contributing to open source software and is often overlooked in its importance. Writing documentations allows you to familiarize yourself with the use of the software, while helping to teach others. |
 | **Create Tutorials, Use Cases, or Visuals** | Another way to contribute is to make your experience and use of the software publicly available. For example, you could create a tutorial based on your use of the software, summarize a use case or provide a summary of your use in a graphic. This part of contribution is particularly appealing as it does not create much extra work to just publish what you have used the software for. |
 | **Improve Layout, Automatization, Structure of Code** | Apart from creating new code, a good way to contribute to open source software can also be to improve, restructure or automatize existing code. This is called refactoring and helps to make the software project more effective and stable. |
@@ -202,6 +202,10 @@ There are several types of contributing to open software. Not all of them requir
 | **Code Review** | Requests to integrate new contributions into the main code base usually require a review of the contribution by at least one other user. Similar to peer review, code review entails writing a short summary about the quality of the code and making suggestions about improvements. |
 
 ## Additional Resources
+
+### Disclaimer
+
+Please note that we reference several papers throughout the course and depending on the paper, it might be blocked by a paywall. If you would like to get a copy of the paper, please contact the Author or search for it in an online preprint archive. For example, [bioRxiv.org](http://biorxiv.org/).
 
 ### References and Guides
 
@@ -237,7 +241,7 @@ In this lesson, you learned:
 
 - When a SMP should be written and that your funding organization or institution may have rules around how you develop and share your code.
 - That joining software communities can be a great way to exchange knowledge and learn new skills around open code.
-- That there are many ways to contribute to open code, and that not all of them require writing code."
+- That there are many ways to contribute to open code, and that not all of them require writing code.
 
 ## Lesson 5: Knowledge Check
 

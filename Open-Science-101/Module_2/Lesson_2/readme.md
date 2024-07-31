@@ -40,7 +40,7 @@ In this lesson, we introduce you to some of the most general open science tools 
 
 ## Persistent Identifiers
 
-A digital persistent identifier (or "PID") is a “long-lasting reference to a digital resource” that is machine-readable and uniquely points to a digital entity, according to [ORCID](https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-) examples of persistent identifiers used in science are described below.
+A digital persistent identifier (or "PID") is a "long-lasting reference to a digital resource" that is machine-readable and uniquely points to a digital entity, according to [ORCID](https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-). Examples of persistent identifiers used in science are described below.
 
 ### ORCID
 
@@ -51,9 +51,9 @@ A digital persistent identifier (or "PID") is a “long-lasting reference to a d
  A free, nonproprietary numeric code that is:
 
 - Uniquely and persistently identifies authors and contributors of scholarly communication.
-- Similar to tax ID numbers for tax purposes.
+- Used similarly to how tax ID numbers are used for tax purposes.
 
-ORCIDs are used to link Used to link researchers to their research and research-related outputs. It is a 16-digit number that uniquely identifies researchers and is integrated with certain organizations (like some publishers) that will add research products (such as a published paper) to an individual's ORCID profile. ORCIDs are meant to last throughout ones career, and helps to avoid confusion when information about a researcher changes over time (e.g. career change or name change). (cite: [https://orcid.org/](https://orcid.org/))
+ORCIDs are used to link Used to link researchers to their research and research-related outputs. It is a 16-digit number that uniquely identifies researchers and is integrated with certain organizations (like some publishers) that will add research products (such as a published paper) to an individual's ORCID profile. ORCIDs are meant to last throughout ones career, and helps to avoid confusion when information about a researcher changes over time (e.g., career change or name change). (cite: [https://orcid.org/](https://orcid.org/))
 
 Many publishers, academic institutes, and government bodies support ORCID. In 2023, ORCID reported over 1,300 member organizations and over 9 million yearly live accounts. You can connect it with your professional information (affiliations, grants, publications, peer review, and more).
 
@@ -84,7 +84,7 @@ Data repositories will typically instruct you on the exact way to cite their dat
 In this activity, you will search for a DOI for a data set or piece of software that you use, and you will then use the DOI website to “resolve” the DOI name. By "resolving", this means that you will be taken to the information about the product designated by that particular DOI.
 
 1. Find the DOI for a dataset or software you use often.
-   1. This should be listed either in the citation file, or in the website where that data/software is published.
+   1. This should be listed either in the citation file, or on the website where that data/software is published.
    2. If you can’t find a DOI, you can instead locate the DOI listed on this page: https://asdc.larc.nasa.gov/project/CERES/CERES_EBAF-TOA_Edition4.1
 2. Go to https://www.doi.org/ and scroll down to the bottom of the page to "TRY
 RESOLVING A DOI NAME".
@@ -104,7 +104,7 @@ This is how easy it should be for your readers to find and use your citation inf
 
 ### Examples of PIDs in Action
 
-<img src="../images/media/image22.jpeg" style="width:100%;height:auto;" />
+<img src="../images/media/image22.png" style="width:100%;height:auto;" />
 
 <table>
   <thead>
@@ -182,7 +182,7 @@ Metadata can facilitate the assessment of dataset quality and data sharing by an
 
 Metadata enhances searchability and findability of the data by potentially allowing other machines to read and interpret datasets.
 
-According to  [The University of Pittsburgh](https://pitt.libguides.com/metadatadiscovery/metadata-standards), "A metadata standard is a high level document which establishes a common way of structuring and understanding data, and includes principles and implementation issues for utilizing the standard."
+According to [The University of Pittsburgh](https://pitt.libguides.com/metadatadiscovery/metadata-standards), "A metadata standard is a high level document which establishes a common way of structuring and understanding data, and includes principles and implementation issues for utilizing the standard."
 
 Many standards exist for metadata fields and structures to describe general data information. It is a best practice to use a standard that is commonly used in your domain, when applicable, or that is requested by your data repository. Examples of metadata standards for different domains include:
 
@@ -465,7 +465,7 @@ produced
 used to share materials
 - How?
   - The details of how to enable reuse of
-materials (eg. licensing, documentation,
+materials (e.g., licensing, documentation,
 metadata)
 - Who?
   - Roles and responsibilities of the team members
@@ -497,7 +497,7 @@ General components of a software management plan:
 - Personnel roles and responsibilities.
 - Any community-specific information of note.
 
-At a minimum, a software management plan for SMD-funded research should include:
+At a minimum, a software management plan SMD-funded (NASA Science Mission Directorate) research should include:
 - Description of the software expected to be produced from the proposed activities, including types of software to be produced, how the software will be developed, and the addition of new features or updates to existing software. This can include the platforms used for development, project management, and community-based best practices to be included such as documentation, testing, dependencies, and versioning.
 - The repository(ies) that will be used to archive software arising from the activities and the schedule for making the software publicly available.
 - Description of software that are subject to relevant laws, regulations, or policies that exclude them from software sharing requirements.

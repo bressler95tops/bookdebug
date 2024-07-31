@@ -19,7 +19,7 @@ After completing this lesson, you should be able to:
 - Define the different types of scientific data.
 - Define what the acronym FAIR means and explain how it supports the sharing of open data.
 - Identify data management practices and tools to locate data in repositories.
-- List and explain the purpose of the resources commonly used in making data including the data formats, inspecting data, and assessing 'FAIR'-ness of data.
+- List and explain the resources commonly used in making data, including formatting, inspecting, and assessing the 'FAIR'-ness of data.
 
 
 ## Introduction to Open Data
@@ -28,7 +28,7 @@ Data is a major part of scientific research, and why wouldn’t it be? It inform
 
 For instance, the open access [Copernicus Emergency Management Service](https://emergency.copernicus.eu/) implemented by the European Commission produces 24/7 open access data collected by ESA and NASA satellites to produce maps that inform disaster preparedness and response efforts across the globe. This is only one example among many others demonstrating the value of data, particularly open and public data, in our daily life and for public good.
 
-Data shared openly in scientific research brings tremendous value to the scientific community and beyond, from indigenous communities to urban populations. Before understanding the broad based impact of data, let’s first look at what is data in the context of scientific research. Specifically, we will discuss the definition and characteristics of open data?
+Data shared openly in scientific research brings tremendous value to the scientific community and beyond, from indigenous communities to urban populations. Before understanding the broad based impact of data, let’s first look at what is data in the context of scientific research. Specifically, we will discuss the definition and characteristics of open data.
 
 ### What is Data?
 
@@ -49,7 +49,7 @@ The following sections discuss ways to ensure that data is fully utilized and ac
 
 Just like driving on a road, if everyone follows agreed upon rules, everything goes much smoother. The rules don’t need to be exactly the same for every region, but share common practices based on insights about safety and efficiency.
 
-For example, maybe you drive on the left side of the road or the right side. Either is fine, those sort of details are for different communities to decide on. However, there are overarching guidelines shared by communities across the globe, such as the rule to drive on the road not the sidewalk, use a turn signal when appropriate, adhere to lights at intersections that direct traffic, and follow speed limits. Some communities may implement stricter rules than others, or practice them differently, but these guidelines help everyone move around safely through a common understanding of how to drive on roads. For scientific data, these guidelines are called the Findable, Accessible, Interoperable, Reusable or “FAIR” principles. They do to data what their title suggests. That is, these principles make it possible for others (and yourself) to find, get , understand, and use data correctly.
+For example, maybe you drive on the left side of the road or the right side. Either is fine, those sort of details are for different communities to decide on. However, there are overarching guidelines shared by communities across the globe, such as the rule to drive on the road not the sidewalk, use a turn signal when appropriate, adhere to lights at intersections that direct traffic, and follow speed limits. Some communities may implement stricter rules than others, or practice them differently, but these guidelines help everyone move around safely through a common understanding of how to drive on roads. For scientific data, these guidelines are called the Findable, Accessible, Interoperable, Reusable or “FAIR” principles. They do to data what their title suggests. That is, these principles make it possible for others (and yourself) to find, get, understand, and use data correctly.
 
 **Findable**:
 
@@ -64,7 +64,7 @@ Current Enabling Tech:
 - [DataCite's Metadata Schema](https://schema.datacite.org/)
 - PIDs: Persistent IDentifiers (additional details in the following sections)
   - [Digital Object Identifier](https://www.doi.org/) (DOI): A top-level and a mandatory field in the metadata of each record - for data, code, publications.
-  - [Open Research and Contributor ID](https://orcid.org/) (ORCiD) - A code that uniquely identifies authors and contributors of research products and scholarly communication.
+  - [Open Research and Contributor ID](https://orcid.org/) (ORCID) - A code that uniquely identifies authors and contributors of research products and scholarly communication.
 
 **Accessible**
 
@@ -73,14 +73,14 @@ To be [Accessible:](https://www.go-fair.org/fair-principles/metadata-retrievable
 - Data and results are retrievable by their identifiers using a standardized communication protocol.
 - The protocol is open, free, and universally implementable.
 - The protocol allows for an authentication and authorization procedure, where necessary. Data and results are publicly accessible and licensed under the public domain.
-  - Metadata are accessible, even when the data are no longer available Data and metadata will be retained for the lifetime of the repository.
+  - Metadata are accessible, even when the data are no longer available. Data and metadata will be retained for the lifetime of the repository.
   - Metadata are stored in high-availability database servers.
 
 Current Enabling Tech:
 - [File Transfer Protocol (FTP)](https://www.w3.org/Protocols/rfc959/), File Transfer Protocol Secure (FTPS)
 - [Hypertext Transfer Protocol (HTTP)](https://www.w3.org/Protocols/), Hypertext Transfer Protocol Secure (HTTPS)
 
-Note that Microsoft Exchange Server and Skype are examples of proprietary protocols.
+Note that Microsoft Exchange Server and Skype are examples of proprietary protocols. As always, it is necessary to balance accessibility with security concerns, which may impact the chosen protocol.
 
 **Interoperable**
 
@@ -118,7 +118,7 @@ These are high-level guidelines, and much like open science, implementation is n
 
 ### Data Management Plan
 
-The previous lesson describes the requirements of a data management plan (DMP). Below are two open science resources to get you started or creating a data management plan:
+The previous lesson describes the requirements of a data management plan (DMP). Below are two open science resources to get you started on creating a data management plan:
 
 **DMPTool**
 
@@ -139,6 +139,8 @@ A data repository is a digital space to house, curate, and share research output
 - [**OpenNeuro**](https://openneuro.org/) is an open platform for validating and sharing brain imaging data. The tools featured in Open Neuro enable easy access, search, and analysis of annotated datasets.
 
 Open science tools such as data repositories should implement FAIR principles, especially in the case of attribution of persistent identifiers (e.g., DOI), metadata annotation, and machine-readability.
+
+Additional examples of data repositories and other open science tools include but are not limited to:
 
 **ZENODO**
 
@@ -296,7 +298,7 @@ Choose the FAIR Principles from the list below. Select all that apply.
 
 Which of the following can help make your data FAIR? Select all that apply.
 - Get a license for your data
-- Make sure you develop your own metadata
+- Make your metadata accessible only as long as your data is available
 - Obtain a PID for your data
 
 *Question*
@@ -308,5 +310,4 @@ Which of the following are examples of repositories? Select all that apply.
 - Zenodo
 - Dataverse
 - Dryad
-- Datacite
 - Google
