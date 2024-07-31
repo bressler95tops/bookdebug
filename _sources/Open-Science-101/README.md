@@ -14,9 +14,6 @@ A NASA Open Science digital badge is earned by completing all five modules and p
 
 ## Navigation
 
-```{tableofcontents}
-```
-
 ### [Module 1 - The Ethos of Open Science](./Module_1/readme.md)
 * [Lesson 1: What is Open Science?](./Module_1/Lesson_1/readme.md)
 * [Lesson 2: Why is Open Science Important?](./Module_1/Lesson_2/readme.md)
