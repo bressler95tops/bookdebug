@@ -33,13 +33,13 @@ parts:
     - file: Open-Science-101/Module_4/Lesson_3/readme.md
     - file: Open-Science-101/Module_4/Lesson_4/readme.md
     - file: Open-Science-101/Module_4/Lesson_5/readme.md
-  - file: Open-Science-101/Module_5/readme
+  - file: Open-Science-101/Test/readme
     sections:
-    - file: Open-Science-101/Module_5/Lesson_1/readme.md
-    - file: Open-Science-101/Module_5/Lesson_2/readme.md
-    - file: Open-Science-101/Module_5/Lesson_3/readme.md
-    - file: Open-Science-101/Module_5/Lesson_4/readme.md
-    - file: Open-Science-101/Module_5/Lesson_5/readme.md
+    - file: Open-Science-101/Test/Lesson_1/readme.md
+    - file: Open-Science-101/Test/Lesson_2/readme.md
+    - file: Open-Science-101/Test/Lesson_3/readme.md
+    - file: Open-Science-101/Test/Lesson_4/readme.md
+    - file: Open-Science-101/Test/Lesson_5/readme.md
 - caption: About TOPS
   chapters:
   - file: About/About-Announcements
