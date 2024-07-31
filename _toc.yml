@@ -37,13 +37,11 @@ parts:
   chapters:
   - file: About/About-Announcements
   - file: About/tops_faq
-  - file: Open-Science-101/Test/readme
-    sections:
-    - file: Open-Science-101/Test/Lesson_1/readme.md
-    - file: Open-Science-101/Test/Lesson_2/readme.md
-    - file: Open-Science-101/Test/Lesson_3/readme.md
-    - file: Open-Science-101/Test/Lesson_4/readme.md
-    - file: Open-Science-101/Test/Lesson_5/readme.md
+  - file: Open-Science-101/Test/Lesson_1/readme.md
+  - file: Open-Science-101/Test/Lesson_2/readme.md
+  - file: Open-Science-101/Test/Lesson_3/readme.md
+  - file: Open-Science-101/Test/Lesson_4/readme.md
+  - file: Open-Science-101/Test/Lesson_5/readme.md
 - caption: Year of Open Science 
   chapters:
   - file: Year_of_Open_Science_Guide/readme
