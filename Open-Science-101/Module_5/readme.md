@@ -17,7 +17,7 @@ After completing this module you should be able to:
 - List the tasks for creating reproducible results and the items to include in a manuscript to ensure reproducible results.
 - Define a strategy for sharing your results including selecting publishers, interpreting journal policies and licenses, and determining when to share your data or software with your manuscript.
 
-# Key Terms
+## Key Terms
 
 These key terms are important topics for this module. Select the term to see the description.
 
