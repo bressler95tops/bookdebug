@@ -5,7 +5,7 @@ function optimize_images() {
     console.log("Page Images:");
     console.log(page_images);
 
-    for (image of page_images) {
+    for (let image of page_images) {
         console.log("src: " + image.src + ", width: " + image.width + ", height: " + image.height);
     }
 
