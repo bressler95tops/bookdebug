@@ -11,6 +11,16 @@ document.addEventListener("DOMContentLoaded", function() {
             let image_height = image.height;
             let image_src = image.src;
             console.log("src: " + image_src + ", width: " + image_width + ", height: " + image_height);
+
+            if(image_width > image_height) {
+                image.classList.add("tops-image-large");
+            } else if(image_width == image_height || image_width < image_height) {
+                if(image_width >= 400) {
+                    image.classList.add("tops-image-medium");
+                } else {
+                    image.classList.add("tops-image-small");
+                }
+            }
         }
     
         // if(page_images != null && page_images.length > 0) {
