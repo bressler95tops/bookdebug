@@ -54,5 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // }
     }
     
-    optimize_images();
+    setTimeout(function(){
+        optimize_images();
+    }, 500);
 });
