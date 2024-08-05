@@ -3,6 +3,7 @@
 function optimize_images() {
     let page_images = document.getElementsByTagName("img");
     console.log("Page Images:");
+    console.log(page_images);
 
     for(let i = 0; i < page_images.length; i++) {
         let current_image = page_images[i];
