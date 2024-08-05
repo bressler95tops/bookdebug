@@ -5,5 +5,7 @@ jobs:
   wget:
       runs-on: ubuntu-latest
       steps:
+      - name: List files, see what actually exists
+        run: ls
       - name: Download a file
         run: wget https://raw.githubusercontent.com/nasa/Transform-to-Open-Science/open-science-101/README.md -O download/folder
