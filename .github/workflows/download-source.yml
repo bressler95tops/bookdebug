@@ -9,5 +9,6 @@ jobs:
       - name: List files, see what actually exists
         run: ls
       - name: Download a file
-        github_token: ${{ secrets.BOOK_TOKEN }}
         run: wget https://raw.githubusercontent.com/nasa/Transform-to-Open-Science/open-science-101/README.md -O download/folder/target.md
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
