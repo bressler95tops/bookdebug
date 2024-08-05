@@ -5,10 +5,8 @@ function optimize_images() {
     console.log("Page Images:");
     console.log(page_images);
 
-    for(let i = 0; i < page_images.length; i++) {
-        let current_image = page_images[i];
-
-        console.log("src: " + current_image.src + ", width: " + current_image.width + ", height: " + current_image.height);
+    for (image of page_images) {
+        console.log("src: " + image.src + ", width: " + image.width + ", height: " + image.height);
     }
 
     // if(page_images != null && page_images.length > 0) {
