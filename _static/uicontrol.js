@@ -13,7 +13,14 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log("src: " + image_src + ", width: " + image_width + ", height: " + image_height);
 
             if(image_width > image_height) {
-                image.classList.add("tops-image-large");
+                let width_delta = image_width - image_height;
+
+                if (width_delta >= 100) {
+                    image.classList.add("tops-image-large");
+                } else {
+                    image.classList.add("tops-image-medium");
+                }
+                
             } else if(image_width == image_height || image_width < image_height) {
                 if(image_width >= 400) {
                     image.classList.add("tops-image-medium");
