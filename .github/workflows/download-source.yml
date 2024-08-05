@@ -1,3 +1,4 @@
+on: workflow_dispatch
 name: Download OS101 Source
 jobs:
   wget:
