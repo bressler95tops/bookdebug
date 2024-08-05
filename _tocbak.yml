@@ -1,6 +1,7 @@
 format: jb-book
 root: index
 parts:
+
 - caption: Open Science 101
   chapters:
   - file: Open-Science-101/README
