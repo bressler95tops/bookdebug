@@ -20,10 +20,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     console.log("src: " + image_src + ", width: " + image_width + ", height: " + image_height + ", scale:" + width_scale);
     
-                    if (width_delta >= 100) {
-                        image.classList.add("tops-image-large");
+                    if(image_width >= 600) {
+                        if (width_scale >= 1.5) {
+                            image.classList.add("tops-image-large");
+                        } else {
+                            image.classList.add("tops-image-medium");
+                        }
                     } else {
-                        image.classList.add("tops-image-medium");
+                        if (width_scale >= 1.5) {
+                            image.classList.add("tops-image-medium");
+                        } else {
+                            image.classList.add("tops-image-small");
+                        }
                     }
                     
                 } else if(image_width == image_height || image_width < image_height) {
