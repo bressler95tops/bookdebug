@@ -10,5 +10,3 @@ jobs:
         run: ls
       - name: Download a file
         run: wget https://raw.githubusercontent.com/nasa/Transform-to-Open-Science/open-science-101/README.md -O download/folder/target.md
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
