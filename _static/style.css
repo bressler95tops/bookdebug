@@ -1,3 +1,7 @@
+.bd-article-container .bd-article img {
+    margin-bottom: 12px;
+}
+
 img.tops-image-small {
     width: 100%;
     max-width: 250px;
