@@ -5,8 +5,7 @@ jobs:
   wget:
       runs-on: ubuntu-latest
       steps:
-      - name: Go up a level
-        run: cd ../
+      - uses: actions/checkout@v2
       - name: List files, see what actually exists
         run: ls
       - name: Download a file
