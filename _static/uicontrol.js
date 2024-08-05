@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 if(image_width > image_height) {
                     let width_delta = image_width - image_height;
+                    let width_scale = image_width / image_height;
+                    console.log("src:" + image_src + ", scale:" + width_scale);
     
                     if (width_delta >= 100) {
                         image.classList.add("tops-image-large");
