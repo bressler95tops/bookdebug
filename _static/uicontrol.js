@@ -3,7 +3,6 @@
 function optimize_images() {
     let page_images = document.getElementsByTagName("img");
     console.log("Page Images:");
-    console.log(page_images);
 
     if(page_images != null && page_images.length > 0) {
         for(let i = 0; i < page_images.length; i++) {
