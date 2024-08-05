@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
             let image_width = image.width;
             let image_height = image.height;
             let image_src = image.src;
-            console.log("src: " + image_src + ", width: " + image_width + ", height: " + image_height);
 
             if (image_src.includes('Tops_Badge_Nasa.png') == true) {
                 console.log("Excluding logo: " + image_src);
@@ -18,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 if(image_width > image_height) {
                     let width_delta = image_width - image_height;
                     let width_scale = image_width / image_height;
-                    console.log("src:" + image_src + ", scale:" + width_scale);
+
+                    console.log("src: " + image_src + ", width: " + image_width + ", height: " + image_height + ", scale:" + width_scale);
     
                     if (width_delta >= 100) {
                         image.classList.add("tops-image-large");
