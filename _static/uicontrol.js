@@ -7,7 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
         let image_arr = Array.prototype.slice.call(page_images)
     
         for (let image of image_arr) {
-            console.log(image);
+            let image_width = image.width;
+            let image_height = image.height;
+            let image_src = image.src;
+            console.log("src: " + image_src + ", width: " + image_width + ", height: " + image_height);
         }
     
         // if(page_images != null && page_images.length > 0) {
