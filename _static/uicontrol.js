@@ -3,9 +3,10 @@
 function optimize_images() {
     let page_images = document.getElementsByTagName("img");
     console.log("Page Images:");
-    console.log(page_images);
 
-    for (let image of page_images) {
+    let image_arr = Array.prototype.slice.call(page_images)
+
+    for (let image of image_arr) {
         console.log(image);
     }
 
