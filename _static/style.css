@@ -4,7 +4,8 @@
 
 img.tops-image-tiny {
     width: auto;
-    height: 35px;
+    height: 30px;
+    margin-bottom: 0;
 }
 
 img.tops-image-small {
