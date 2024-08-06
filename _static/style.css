@@ -68,11 +68,11 @@ img.tops-image-large {
 }
 
 .bd-article table:not(.table) tbody tr:last-of-type {
-    border: none;
+    border-bottom: none;
 }
 
 .bd-article table:not(.table) tbody tr:last-of-type td {
-    border: none;
+    border-bottom: none;
 }
 
 .bd-article table:not(.table) tbody tr:nth-child(odd) {
