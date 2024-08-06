@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    get_missing_images();
+
     function optimize_images() {
         let page_images = document.getElementsByTagName("img");
         console.log("Page Images:");
