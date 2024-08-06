@@ -29,6 +29,7 @@ repository:
 
 sphinx:
   config:
+    html_show_copyright: false
     exclude_patterns:
       - README.md
     myst_enable_extensions: 
