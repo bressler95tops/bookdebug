@@ -28,13 +28,21 @@ img.tops-image-large {
     margin-bottom: 1rem;
 }
 
+.bd-article table>thead {
+    vertical-align: bottom;
+}
+
+.bd-article table>tbody {
+    vertical-align: inherit;
+}
+
 .bd-article table tr {
     background-color: var(--pst-color-table-heading-bg);
     border-bottom: 2px solid var(--pst-color-primary);
 }
 
-.bd-article table>thead {
-    vertical-align: bottom;
+.bd-article table tbody tr:hover {
+    background-color: var(--pst-color-table-row-hover-bg);
 }
 
 .bd-article table tbody tr:nth-child(odd) {
