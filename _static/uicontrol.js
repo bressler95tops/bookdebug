@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     function get_missing_images() {
         let page_images = document.getElementsByTagName("img");
+        console.log("Locating ommited images...");
 
         if(page_images != null) {
             for(let i = 0; i < page_images.length; i++) {
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     if(split_image != null) {
                         if(split_image.length == 2) {
-                            console.log("Current Image: " + split_image[1]);
+                            console.log("Missing Image: " + split_image[1]);
                         }
                     }
                 }
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function optimize_images() {
         let page_images = document.getElementsByTagName("img");
-        console.log("Page Images:");
+        console.log("Optimizing Images...");
         
         if(page_images != null) {
             let image_arr = Array.prototype.slice.call(page_images);
