@@ -1,0 +1,20 @@
+on: 
+  workflow_dispatch:
+name: Download OS101 Source
+jobs:
+  wget:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - name: List files, see what actually exists
+        run: ls
+      - name: Download a file
+        run: wget https://raw.githubusercontent.com/nasa/Transform-to-Open-Science/open-science-101/README.md -O download/folder/target.md
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "bressler95tops"
+          git config --global user.email "briancressler@gmail.com"
+
+          git add -A
+          git commit -m "commit message"
+          git push
