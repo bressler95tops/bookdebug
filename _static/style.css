@@ -19,3 +19,7 @@ img.tops-image-large {
     max-width: 900px;
     height: auto;
 }
+
+table {
+    margin-bottom: 1rem;
+}
