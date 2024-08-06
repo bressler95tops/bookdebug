@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                         console.log("src: " + image_src + ", width: " + image_width + ", height: " + image_height + ", scale:" + width_scale);
         
-                        if(image_width >= 600) {
+                        if(image_width >= 700) {
                             if (width_scale >= 1.35) {
                                 image.classList.add("tops-image-large");
                             } else {
