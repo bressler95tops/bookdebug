@@ -2,6 +2,11 @@
     margin-bottom: 12px;
 }
 
+img.tops-image-tiny {
+    width: auto;
+    height: 35px;
+}
+
 img.tops-image-small {
     width: 100%;
     max-width: 250px;

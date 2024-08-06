@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     console.log("Excluding logo: " + image_src);
                 } else if(image_src.includes('image71.png') == true) {
                     console.log("Shrinking info image: " + image_src);
-                    image.classList.add("tops-image-small");
+                    image.classList.add("tops-image-tiny");
                 } else {
                     if(image_width > image_height) {
                         let width_delta = image_width - image_height;
