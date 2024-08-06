@@ -25,7 +25,7 @@ img.tops-image-large {
     border-color: inherit;
 }
 
-.bd-article table {
+.bd-article table:not(.table) {
     --bs-table-bg: transparent;
     --bs-table-color: var(--pst-color-text-base);
     border: 1px solid var(--pst-color-table-outer-border);
@@ -33,32 +33,32 @@ img.tops-image-large {
     margin-bottom: 1rem;
 }
 
-.bd-article table>thead {
+.bd-article table:not(.table)>thead {
     vertical-align: bottom;
 }
 
-.bd-article table>tbody {
+.bd-article table:not(.table)>tbody {
     vertical-align: inherit;
 }
 
-.bd-article table tr {
+.bd-article table:not(.table) tr {
     background-color: var(--pst-color-table-heading-bg);
     border-bottom: 2px solid var(--pst-color-primary);
 }
 
-.bd-article table tr:last-of-type {
+.bd-article table:not(.table) tr:last-of-type {
     border: none;
 }
 
-.bd-article table tbody tr:nth-child(odd) {
+.bd-article table:not(.table) tbody tr:nth-child(odd) {
     background-color: var(--pst-color-table-row-zebra-low-bg);
 }
 
-.bd-article table tbody tr:hover {
+.bd-article table:not(.table) tbody tr:hover {
     background-color: var(--pst-color-table-row-hover-bg);
 }
 
-.bd-article table>:not(caption)>*>* {
+.bd-article table:not(.table)>:not(caption)>*>* {
     background-color: var(--bs-table-bg);
     border-bottom-width: var(--bs-border-width);
     box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
@@ -66,6 +66,6 @@ img.tops-image-large {
     padding: .5rem;
 }
 
-.bd-article table td~td, .bd-article table td~th, .bd-article table th~td, .bd-article table th~th {
+.bd-article table:not(.table) td~td, .bd-article table:not(.table) td~th, .bd-article table:not(.table) th~td, .bd-article table:not(.table) th~th {
     border-left: 1px solid var(--pst-color-table-inner-border);
 }
