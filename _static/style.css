@@ -20,6 +20,31 @@ img.tops-image-large {
     height: auto;
 }
 
-table {
+.bd-article table {
+    --bs-table-bg: transparent;
+    --bs-table-color: var(--pst-color-text-base);
+    border: 1px solid var(--pst-color-table-outer-border);
+    color: var(--pst-color-table);
     margin-bottom: 1rem;
+}
+
+.bd-article table tr {
+    background-color: var(--pst-color-table-heading-bg);
+    border-bottom: 2px solid var(--pst-color-primary);
+}
+
+.bd-article table>thead {
+    vertical-align: bottom;
+}
+
+.bd-article table tbody tr:nth-child(odd) {
+    background-color: var(--pst-color-table-row-zebra-low-bg);
+}
+
+.bd-article table>:not(caption)>*>* {
+    background-color: var(--bs-table-bg);
+    border-bottom-width: var(--bs-border-width);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+    color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
+    padding: .5rem;
 }
