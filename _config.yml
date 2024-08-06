@@ -16,7 +16,7 @@ execute:
 # HTML-specific settings
 html:
   home_page_in_navbar       : false  # Whether to include your home page in the left Navigation Bar
-  baseurl                   : "https://bressler95tops.github.io/bookdebug"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
+  baseurl                   : "https://bressler95tops.github.io/os101book"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   use_repository_button     : true
   use_edit_page_button      : true
   use_issues_button         : true
@@ -24,7 +24,7 @@ html:
 
 
 repository:
-  url                       : https://github.com/bressler95tops/bookdebug  # The URL to your book's repository
+  url                       : https://github.com/bressler95tops/os101book  # The URL to your book's repository
   branch                    : main  # Which branch of the repository should be used when creating links
 
 sphinx:
