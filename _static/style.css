@@ -46,6 +46,10 @@ img.tops-image-large {
     border-bottom: 2px solid var(--pst-color-primary);
 }
 
+.bd-article table tr:last-of-type {
+    border: none;
+}
+
 .bd-article table tbody tr:nth-child(odd) {
     background-color: var(--pst-color-table-row-zebra-low-bg);
 }
