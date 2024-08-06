@@ -4,7 +4,10 @@ document.addEventListener("DOMContentLoaded", function() {
         let page_images = document.getElementsByTagName("img");
 
         if(page_images != null) {
-            
+            for(let i = 0; i < page_images.length; i++) {
+                let current_image = page_images[i];
+                console.log("Current Image: " + current_image.src);
+            }
         }
     }
 
