@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 if (image_src.includes('Tops_Badge_Nasa.png') == true) {
                     console.log("Excluding logo: " + image_src);
-                } else if(image_src.includes('image71.png') == true) {
+                } else if(image_src.includes('image71.png') == true || image_src.includes('image57.png') == true) {
                     console.log("Shrinking info image: " + image_src);
                     image.classList.add("tops-image-tiny");
                 } else {
