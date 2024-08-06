@@ -20,7 +20,7 @@ img.tops-image-large {
     height: auto;
 }
 
-.bd-article table tbody, .bd-article table td, .bd-article table tfoot, .bd-article table th, .bd-article table thead, .bd-article table tr {
+.bd-article table:not(.table) tbody, .bd-article table:not(.table) td, .bd-article table:not(.table) tfoot, .bd-article table:not(.table) th, .bd-article table:not(.table) thead, .bd-article table:not(.table) tr {
     border: 0 solid;
     border-color: inherit;
 }
