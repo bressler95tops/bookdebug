@@ -67,7 +67,7 @@ img.tops-image-large {
     border-bottom: 2px solid var(--pst-color-primary);
 }
 
-.bd-article table:not(.table) tbody tr:last-of-type {
+.bd-article table:not(.table) tbody tr:last-of-type td {
     border: none;
     outline: none;
 }
