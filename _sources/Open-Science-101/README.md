@@ -1,6 +1,6 @@
 # Open Science 101 Curriculum
 
-> Please Note: This version of OS101 is a reference copy and is not a substitute for taking the course.  If you are interested in taking the full course, [please visit our website](https://nasa.github.io/Transform-to-Open-Science/take-os101/) for more information!
+> Please Note: This version of OS101 is a reference copy and is not a substitute for taking the course.  If you would like to receive credit for the course, [please visit our website](https://nasa.github.io/Transform-to-Open-Science/take-os101/) for more information!
 
 ## Curriculum Overview
 
