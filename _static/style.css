@@ -46,8 +46,9 @@ img.tops-image-large {
     border-bottom: 2px solid var(--pst-color-primary);
 }
 
-.bd-article table:not(.table) tr:last-of-type {
+.bd-article table:not(.table) tbody tr:last-of-type {
     border: none;
+    outline: none;
 }
 
 .bd-article table:not(.table) tbody tr:nth-child(odd) {
