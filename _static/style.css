@@ -20,6 +20,11 @@ img.tops-image-large {
     height: auto;
 }
 
+.bd-article table tbody, .bd-article table td, .bd-article table tfoot, .bd-article table th, .bd-article table thead, .bd-article table tr {
+    border: 0 solid;
+    border-color: inherit;
+}
+
 .bd-article table {
     --bs-table-bg: transparent;
     --bs-table-color: var(--pst-color-text-base);
@@ -41,12 +46,12 @@ img.tops-image-large {
     border-bottom: 2px solid var(--pst-color-primary);
 }
 
-.bd-article table tbody tr:hover {
-    background-color: var(--pst-color-table-row-hover-bg);
-}
-
 .bd-article table tbody tr:nth-child(odd) {
     background-color: var(--pst-color-table-row-zebra-low-bg);
+}
+
+.bd-article table tbody tr:hover {
+    background-color: var(--pst-color-table-row-hover-bg);
 }
 
 .bd-article table>:not(caption)>*>* {
