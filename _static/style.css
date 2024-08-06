@@ -48,3 +48,7 @@ img.tops-image-large {
     color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
     padding: .5rem;
 }
+
+.bd-article table td~td, .bd-article table td~th, .bd-article table th~td, .bd-article table th~th {
+    border-left: 1px solid var(--pst-color-table-inner-border);
+}
