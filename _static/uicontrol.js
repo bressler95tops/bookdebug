@@ -13,7 +13,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     if(split_image != null) {
                         if(split_image.length == 2) {
-                            console.log("Missing Image: " + split_image[1]);
+                            let split_location = split_image[1];
+                            let fixed_location = 'https://raw.githubusercontent.com/bressler95tops/bookdebug/main/Open-Science-101/' + split_location;
+                            console.log("Replacing Missing Image: " + split_location);
+                            current_image.src = fixed_location;
                         }
                     }
                 }
