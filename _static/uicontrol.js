@@ -6,7 +6,18 @@ document.addEventListener("DOMContentLoaded", function() {
         if(page_images != null) {
             for(let i = 0; i < page_images.length; i++) {
                 let current_image = page_images[i];
-                console.log("Current Image: " + current_image.src);
+                let current_src = current_image.src;
+                if(current_src.includes('Open-Science-101/')) {
+                    let split_image = current_src.split('Open-Science-101/');
+
+                    if(split_image != null) {
+                        if(split_image.length == 2) {
+                            console.log("Current Image: " + split_image[1]);
+                        }
+                    }
+                }
+                // https://bressler95tops.github.io/bookdebug/Open-Science-101/Module_1/images/media/image243.jpg
+                
             }
         }
     }
